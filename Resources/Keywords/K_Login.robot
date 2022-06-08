@@ -15,7 +15,7 @@ Open_Wikipedia
 
 Terms
     sleep    2
-    FOR    ${i}    IN RANGE    0    11
+    FOR    ${i}    IN RANGE    0    13
         swipe    580    1782    518    474
     END
     click element    ${btn_login}

@@ -16,16 +16,6 @@ Login_Dashboard
     Open_Ikon_Connect
     Terms
     Login
-    #Enter_To_Profile
-    #Accept_User_Data
-    tc_preferences_change_pass_validate
-    #enter_to_last_known_location
-    #center_green_locate
-    #MAP_VIEW
-    #street_view
-    #locate_know
-    #Enter_To_Profile
-    #Accept_User_Data
-    #TC_Profile_Clear_Data
+    sleep    20
     close application
     #stop video recording
