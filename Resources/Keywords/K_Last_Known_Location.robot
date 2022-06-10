@@ -14,7 +14,10 @@ Center_green_locate
 
 Locate_know
     tap    ${DASH_LAST_KNOW_LOCATION_MODULE_MAP_VIEW_BTN_LOCATE_NOW}
-    sleep    300
+    #FOR    ${i}    IN RANGE    0    55
+    #    swipe    580    1782    518    474
+    #END
+    sleep    119
 
 Map_view
     tap    ${DASH_LAST_KNOW_LOCATION_MODULE_MAP_VIEW}
