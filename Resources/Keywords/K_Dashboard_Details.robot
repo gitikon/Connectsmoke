@@ -72,3 +72,4 @@ Dashboard_Details_Plate_empty
     sleep    7
     click element    ${dash_details_details_plate_field}
     sleep    3
+

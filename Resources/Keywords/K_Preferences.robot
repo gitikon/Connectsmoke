@@ -2,15 +2,16 @@
 Library    AppiumLibrary
 Resource    ../Variables/V_Preferences.robot
 Resource    ../Variables/V_Login.robot
-Resource    ../Variables/V_Dashboard.robot
-Resource    ../Variables/V_Profile.robot
+Resource    K_Preferences.robot
+Resource    K_Dashboard.robot
+Resource    K_Profile.robot
 
 *** Keywords ***
 TC_Enter_Preferences
     sleep    2
-    tap    ${MY_ACCOUNT_PREFERENCES}
+    tap    ${MY_ACCOUNT_BTN_PREFERENCES}
     #swipe    907    1207    176    1207
-    #click button    ${MY_ACCOUNT_PREFERENCES}
+    #click button    ${MY_ACCOUNT_BTN_PREFERENCES}
     #click element at coordinates    235    178
 
 TC_Preferences_Change_Password_Button
@@ -60,7 +61,7 @@ TC_Preferences_Change_Pass_Same_Pass
     Enter_To_Profile
     Accept_User_Data
     sleep    2
-    tap    ${MY_ACCOUNT_PREFERENCES}
+    tap    ${MY_ACCOUNT_BTN_PREFERENCES}
     sleep    1
     tap    ${PRE_BTN_CHANGE_PASS}
     sleep    1
@@ -86,7 +87,7 @@ TC_Preferences_Change_Pass_Success
     Enter_To_Profile
     Accept_User_Data
     sleep    2
-    tap    ${MY_ACCOUNT_PREFERENCES}
+    tap    ${MY_ACCOUNT_BTN_PREFERENCES}
     sleep    1
     tap    ${PRE_BTN_CHANGE_PASS}
     sleep    1
@@ -112,7 +113,7 @@ TC_Preferences_Change_Different
     Enter_To_Profile
     Accept_User_Data
     sleep    2
-    tap    ${MY_ACCOUNT_PREFERENCES}
+    tap    ${MY_ACCOUNT_BTN_PREFERENCES}
     sleep    1
     tap    ${PRE_BTN_CHANGE_PASS}
     sleep    1
@@ -149,7 +150,7 @@ TC_Preferences_Change_Pass_White_Blank
     Enter_To_Profile
     Accept_User_Data
     sleep    2
-    tap    ${MY_ACCOUNT_PREFERENCES}
+    tap    ${MY_ACCOUNT_BTN_PREFERENCES}
     sleep    1
     tap    ${PRE_BTN_CHANGE_PASS}
     sleep    1

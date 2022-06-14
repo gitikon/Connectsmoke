@@ -4,7 +4,7 @@ Library    AppiumLibrary
 
 *** Variables ***
 
-${MY_ACCOUNT_PREFERENCES}    //hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[2]/android.view.View[2]
+${MY_ACCOUNT_BTN_PREFERENCES}    //hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[2]/android.view.View[2]
 #${PROFILE_PREFERENCES_MENU}    //hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[2]/android.view.View[2]
 #//*[@content-desc="Preferences Tab 2 of 2"]
 #${MY_ACCOUNT_BTN_PREFERENCES}    //android.view.View[@content-desc="Preferences Tab 2 of 2"]
