@@ -14,7 +14,8 @@ Automation_Preferences_Testcases
     Enter_To_Profile
     Accept_User_Data
     TC_Enter_Preferences
-    #TC_Preferences_Privacy Policy
+    #TC_Preferences_Privacy Policy (agregar boton para cerrar)
     #TC_Preferences_Battery_Switches
+    TC_Preferences_Change_Pass_Same_Pass
     close application
     #stop video recording

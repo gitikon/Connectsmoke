@@ -27,7 +27,7 @@ TC_Preferences_Verification_Code
 
 TC_Preferences_Privacy Policy
     tap    ${PRE_PRIVACY_POLICY}
-    page should contain element    ${PRE_PRIVACY_POLICY_CONTENT}
+    #page should contain element    ${PRE_PRIVACY_POLICY_CONTENT}
     sleep    2
     FOR    ${i}    IN RANGE    0    10
         swipe    580    1782    518    474
@@ -42,7 +42,8 @@ TC_Preferences_Battery_Switches
     tap    ${PRE_KM}
     appiumlibrary.go back
     tap    ${dash_icon_profile}
-    tap    ${MY_ACCOUNT_BTN_PREFERENCES}
+    Accept_User_Data
+    TC_Enter_Preferences
     tap    ${PRE_SWITCH_LOW_BAT}
     sleep    1
     tap    ${PRE_SWITCH_PLUG_UNPLU_BAT}
@@ -50,7 +51,8 @@ TC_Preferences_Battery_Switches
     tap    ${PRE_MILES}
     appiumlibrary.go back
     tap    ${dash_icon_profile}
-    tap    ${MY_ACCOUNT_BTN_PREFERENCES}
+    Accept_User_Data
+    TC_Enter_Preferences
     tap    ${PRE_SWITCH_LOW_BAT}
     sleep    1
     tap    ${PRE_SWITCH_PLUG_UNPLU_BAT}
