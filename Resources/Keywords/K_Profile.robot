@@ -14,11 +14,19 @@ TC_Profile_Clear_Data
     tap    ${pro_l_name}
     clear text    ${pro_l_name}
     sleep    3
+    tap    ${profile_form}
     tap    ${pro_email}
     clear text    ${pro_email}
     sleep    3
+    tap    ${profile_form}
+    tap    ${pro_phone_number}
+    clear text    ${pro_phone_number}
+    sleep    3
+    tap    ${profile_form}
     swipe    580    1782    518    474
     tap    ${pro_save_changes}
+    sleep    7
+
 TC_Profile_Clear_Lastname
     tap    ${pro_l_name}
     clear text    ${pro_l_name}

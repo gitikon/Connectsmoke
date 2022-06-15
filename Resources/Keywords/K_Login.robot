@@ -23,7 +23,7 @@ Terms
 
 #y para validar puedes usar javierikon2 javierikon3@mailinator.com y javierikon8(esta ahorita no tiene carro) y todas tienen el pass de Ikon1234
 
-Login_with_empty_fields
+TC_Login_with_empty_fields
     #EMPTY FIELDS
     log to console    "*******************START_TC_EMPTY_ FIELDS*********************"
     sleep    3
@@ -33,7 +33,7 @@ Login_with_empty_fields
     sleep    3
     log to console    "*******************END_TC_EMPTY_ FIELDS*********************"
 
-Login_Incorrect_User_And_Password
+TC_Login_Incorrect_User_And_Password
 #INCORRECT_USER_AND_PASSWORD
     log to console    "*******************START_TC_INCORRECT_USER_AND_PASSWORD*********************"
     tap    ${l_email}
@@ -50,7 +50,7 @@ Login_Incorrect_User_And_Password
     sleep    5
     log to console    "*******************END_TC_INCORRECT_USER_AND_PASSWORD*********************"
 
-Login_Correct_User_And_Incorrect_Password
+TC_Login_Correct_User_And_Incorrect_Password
     #CORRECT_USER_AND_INCORRECT_PASSWORD
     log to console    "*******************START_TC_CORRECT_USER_AND_INCORRECT_PASSWORD*********************"
     tap    ${l_email}
@@ -66,7 +66,7 @@ Login_Correct_User_And_Incorrect_Password
     sleep    5
     log to console    "*******************END_TC_CORRECT_USER_AND_INCORRECT_PASSWORD*********************"
 
-Login_Incorrect_User_And_Correct_Password
+TC_Login_Incorrect_User_And_Correct_Password
 #INCORRECT_USER_AND_CORRECT_PASSWORD
     log to console    "*******************START_TC_INCORRECT_USER_AND_CORRECT_PASSWORD*********************"
     tap    ${l_email}
@@ -82,7 +82,7 @@ Login_Incorrect_User_And_Correct_Password
     sleep    5
     log to console    "*******************END_TC_INCORRECT_USER_AND_CORRECT_PASSWORD*********************"
 
-Login_Credential_With_Keep_Me_Login
+TC_Login_Credential_With_Keep_Me_Login
 #VALID_CREDENTIALS_WITH_KEEP_ME_LOGIN
     log to console    "*******************START_TC_VALID_CREDENTIALS_WITH_KEEP_ME_LOGIN*********************"
     tap    ${l_show_password}
@@ -105,7 +105,7 @@ Login_Credential_With_Keep_Me_Login
     sleep    5
     log to console    "*******************END_TC_VALID_CREDENTIALS_WITH_KEEP_ME_LOGIN*********************"
 
-Login_Valid_Credentials_Without_Keep_Me_Login
+TC_Login_Valid_Credentials_Without_Keep_Me_Login
     #VALID_CREDENTIALS_WITHOUT_KEEP_ME_LOGIN
     log to console    "*******************START_TC_VALID_CREDENTIALS_WITHOUT_KEEP_ME_LOGIN*********************"
     tap    ${l_show_password}
@@ -129,7 +129,7 @@ Login_Valid_Credentials_Without_Keep_Me_Login
     sleep    5
     log to console    "*******************END_TC_VALID_CREDENTIALS_WITHOUT_KEEP_ME_LOGIN*********************"
 
-Login_Valid_Credentials_Without_Cars
+TC_Login_Valid_Credentials_Without_Cars
     #VALID_CREDENTIALS_WITHOUT_CARS
     log to console    "*******************START_TC_VALID_CREDENTIALS_WITHOUT_CARS*********************"
     tap    ${l_show_password}
