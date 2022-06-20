@@ -12,8 +12,9 @@ Automation_Profile_Testcases
     Login
     Enter_To_Profile
     Accept_User_Data
-    TC_Profile_Clear_Data
+    #TC_Profile_Clear_Data
     #TC_Profile_Clear_Lastname
+    #TC_Profile_Enter_Lower_Capital_Letters
     #TC_Profile_Clear_Email
     #TC_Profile_Phone_Wrong_Number
     #TC_Profile_Phone_One_Digit
