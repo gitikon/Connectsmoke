@@ -1,28 +1,31 @@
 *** Settings ***
 Library    AppiumLibrary
 Resource     ../Resources/Keywords/K_Login.robot
-Resource    ../Resources/Keywords/K_Dashboard.robot
-#Resource    ../Resources/Keywords/K_MyDealer.robot
-Resource    ../Resources/Keywords/K_Profile.robot
-#Resource    ../Resources/Variables/V_Dashboard.robot
+Resource    ../Resources/Keywords/K_Dashboard_Trip_History.robot
 
 *** Test Cases ***
-Mydealer_Module
-    #Start Video Recording    alias=None    name=../Data/Video/DEMO_LOGIN_IKON    fps=None    size_percentage=1    embed=True    embed_width=100px    monitor=1
+TC_Trip_History_Filters
+#ESTA PRUEBA SE TIENE QUE REFACTORIZAR
+#PARA QUE FUNCIONE CON COORDENADAS
     Open_Ikon_Connect
     Terms
     Login
-    Enter_To_Profile
-    Accept_User_Data
-    #TC_Login_Valid_Credentials_Without_Keep_Me_Login
-    #TC_Profile_Clear_Data
-    #TC_Profile_Clear_Lastname
-    #TC_Profile_Clear_Email
-    #TC_Profile_Phone_Wrong_Number
-    #TC_Profile_Phone_One_Digit
-    #TC_Profile_Phone_Right_Number
-    #TC_Profile_Phone_Different_Number
-    #Enter_To_MyDealer_Menu
-    #profile nombre en minusculas y mayusculas
+    swipe    580    1782    518    474
+    sleep    3
+    tap    //*[@content-desc="View trip history"]
+    sleep    3
+    tap    //*[@content-desc="Today"]
+    sleep    3
+    tap    //hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[5]
+    sleep    8
+    tap    //*[@content-desc="15, Wednesday, June 15, 2022"]
+    sleep    3
+    tap    //*[@content-desc="25, Saturday, June 25, 2022"]
+    sleep    3
+    tap    //*[@content-desc="SAVE"]
+    Sleep    5
+    tap    //*[@content-desc="Sort by most recent"]
+    sleep    3
+    tap    //*[@content-desc="Oldest"]
+    sleep    5
     close application
-    #stop video recording
