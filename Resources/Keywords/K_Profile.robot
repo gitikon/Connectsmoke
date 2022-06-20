@@ -1,6 +1,7 @@
 *** Settings ***
 Library    AppiumLibrary
 Resource    ../Variables/V_Profile.robot
+Resource    /K_Dashboard.robot
 
 *** Keywords ***
 Accept_User_Data
@@ -26,6 +27,61 @@ TC_Profile_Clear_Data
     swipe    580    1782    518    474
     tap    ${pro_save_changes}
     sleep    7
+
+TC_Profile_Enter_Lower_Capital_Letters
+    tap    ${pro_f_name}
+    input text    ${pro_f_name}    Roberto
+    sleep    3
+    tap    ${pro_l_name}
+    input text    ${pro_l_name}    Carlos
+    sleep    3
+    tap    ${profile_form}
+    swipe    580    1782    518    474
+    tap    ${pro_save_changes}
+    sleep    3
+    go back
+    Enter_To_Profile
+    Accept_User_Data
+    sleep    2
+    tap    ${pro_f_name}
+    input text    ${pro_f_name}    roberto
+    sleep    3
+    tap    ${pro_l_name}
+    input text    ${pro_l_name}    Carlos
+    sleep    3
+    tap    ${profile_form}
+    swipe    580    1782    518    474
+    tap    ${pro_save_changes}
+    sleep    3
+    go back
+    Enter_To_Profile
+    Accept_User_Data
+    sleep    2
+    tap    ${pro_f_name}
+    input text    ${pro_f_name}    Roberto
+    sleep    3
+    tap    ${pro_l_name}
+    input text    ${pro_l_name}    carlos
+    sleep    3
+    tap    ${profile_form}
+    swipe    580    1782    518    474
+    tap    ${pro_save_changes}
+    sleep    3
+    go back
+    Enter_To_Profile
+    Accept_User_Data
+    sleep    2
+    tap    ${pro_f_name}
+    input text    ${pro_f_name}    roberto
+    sleep    3
+    tap    ${pro_l_name}
+    input text    ${pro_l_name}    carlos
+    sleep    3
+    tap    ${profile_form}
+    swipe    580    1782    518    474
+    tap    ${pro_save_changes}
+    sleep    3
+    go back
 
 TC_Profile_Clear_Lastname
     tap    ${pro_l_name}
