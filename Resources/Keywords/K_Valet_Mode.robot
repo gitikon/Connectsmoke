@@ -7,9 +7,7 @@ Resource    ../Variables/V_2Valet_Mode.robot
 
 TC_Swipe_Valet
 
-    FOR    ${i}    IN RANGE    0    2
-        swipe    580    1782    518    474
-    END
+    swipe    580    1102    518    474
 
 TC_Activate_Quick_Mode
 
@@ -30,5 +28,24 @@ TC_Activate_Custom_Mode_First_time
 
 TC_Edit_CUstom_mode
 
-    sleep    10
+    #wait until page contains element    ${dash_valet_edit}
+    sleep    3
     tap    ${dash_valet_edit}
+    sleep    3
+    click element at coordinates    250    1689
+    click element at coordinates    500    1977
+    sleep    1
+    click element at coordinates    400    1689
+    click element at coordinates    700    1977
+    sleep    1
+    tap    ${DASH_VALET_CONFIRM_RANGE}
+    sleep    2
+    tap    ${dash_valet_edit}
+    sleep    3
+    click element at coordinates    80    1689
+    click element at coordinates    75    1977
+    sleep    2
+    tap    ${DASH_VALET_CONFIRM_RANGE}
+    sleep    4
+
+

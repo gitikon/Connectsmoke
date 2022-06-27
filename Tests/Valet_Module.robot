@@ -13,9 +13,9 @@ Automation_Preferences_Testcases
     Terms
     Login
     TC_Swipe_Valet
-    tc_activate_quick_mode
+    #tc_activate_quick_mode
     #tc_activate_custom_mode_first_time
     #tc_activate_custom_mode
-    #tc_edit_custom_mode
+    TC_Edit_CUstom_mode
     close application
     #stop video recording
