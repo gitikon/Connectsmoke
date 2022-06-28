@@ -12,9 +12,9 @@ Mydealer_Module
     Terms
     Login
     Enter_To_MyDealer_Menu
-    #TC_MyDealer_Hours_of_Operations
-    #TC_MyDealer_Call_Service_Center
-    #TC_MyDealer_Directions_To_Dealer
+    TC_MyDealer_Hours_of_Operations
+    TC_MyDealer_Call_Service_Center
+    TC_MyDealer_Directions_To_Dealer
     TC_MyDealer_Roadside_Assitance
     close application
     #stop video recording
