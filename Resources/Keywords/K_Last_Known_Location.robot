@@ -15,9 +15,11 @@ Center_green_locate
 Locate_know
     tap    ${DASH_LAST_KNOW_LOCATION_MODULE_MAP_VIEW_BTN_LOCATE_NOW}
     #FOR    ${i}    IN RANGE    0    55
-    #    swipe    580    1782    518    474
+        #swipe    580    1782    518    474
+        #wait until page contains element    //hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[2]/android.widget.ImageView[1]      120
     #END
-    sleep    119
+    wait until page contains element    //hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[2]/android.widget.ImageView[1]      150
+    sleep    3
 
 Map_view
     tap    ${DASH_LAST_KNOW_LOCATION_MODULE_MAP_VIEW}
