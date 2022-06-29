@@ -7,7 +7,8 @@ Resource    ../Variables/V_Preferences.robot
 
 *** Keywords ***
 Open_Ikon_Connect
-    ${connect}    open application    http://localhost:4723/wd/hub    platformName=Android    deviceName=R58M82NQQ6F     appPackage=com.ikontechnologies.henkelcdjr.connect    appActivity=com.ikontechnologies.iconnect.MainActivity       automationName=Uiautomator2
+    ${connect}    open application    http://localhost:4723/wd/hub    platformName=Android    deviceName=R58M82NQQ6F     appPackage=com.ikontechnologies.fordofmurfreesboro.connect    appActivity=com.ikontechnologies.iconnect.MainActivity       automationName=Uiautomator2
+    #${connect}    open application    http://localhost:4723/wd/hub    platformName=Android    deviceName=R58M82NQQ6F     appPackage=com.ikontechnologies.henkelcdjr.connect    appActivity=com.ikontechnologies.iconnect.MainActivity       automationName=Uiautomator2
     #${connect}    open application    http://localhost:4723/wd/hub    platformName=Android    deviceName=R58M82NQQ6F     appPackage=com.ikontechnologies.jameswood.connect    appActivity=com.ikontechnologies.iconnect.MainActivity       automationName=Uiautomator2
     #emulator-5554
 
