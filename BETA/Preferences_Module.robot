@@ -18,8 +18,8 @@ Automation_Preferences_Testcases
     TC_Preferences_Battery_Switches
     TC_Preferences_Change_Pass_Same_Pass
     TC_Preferences_Change_Pass_Success
-    TC_Preferences_Change_CurrentPass_Different
-    TC_Preferences_Change_Confirm_Pass_Different
-    TC_Preferences_Change_Pass_White_Blank
+    #NOSE QUE TENGA SSTC_Preferences_Change_CurrentPass_Different
+    #TC_Preferences_Change_Confirm_Pass_Different
+    #TC_Preferences_Change_Pass_White_Blank
     close application
     #stop video recording

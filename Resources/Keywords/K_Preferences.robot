@@ -64,13 +64,13 @@ TC_Preferences_Battery_Switches
 TC_Preferences_Change_Pass_Same_Pass
 #El mismo password al que esta
     tap    ${MY_ACCOUNT_BTN_PREFERENCES}
-    sleep    1
+    sleep    3
     tap    ${PRE_BTN_CHANGE_PASS}
-    sleep    1
+    sleep    3
     tap    ${PRE_BTN_CHANGE_PASS_CURRENT_PASS}
-    sleep    1
+    sleep    3
     tap    ${PRE_BTN_CHANGE_PASS_CURRENT_BTN_CONTINUE}
-    sleep    1
+    sleep    3
     click element    ${PRE_BTN_CHANGE_PASS_CURRENT_OLD_PASS}
     press keycode    -1    37    #caps_lock
     press keycode    37     #i
@@ -82,8 +82,9 @@ TC_Preferences_Change_Pass_Same_Pass
     press keycode    10     #3
     press keycode    11     #4
     sleep    3
-    click element at coordinates    55    237      #1025,1598
-    click element    ${PRE_BTN_CHANGE_PASS_CURRENT_NEW_PASS}
+    #click element at coordinates    55    237      #1025,1598
+    click element    //hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.widget.ScrollView[1]/android.widget.EditText[2]
+    #${PRE_BTN_CHANGE_PASS_CURRENT_NEW_PASS}
     press keycode    -1    #caps_lock
     press keycode    37     #i
     press keycode    39     #k
@@ -94,8 +95,9 @@ TC_Preferences_Change_Pass_Same_Pass
     press keycode    10     #3
     press keycode    11     #4
     sleep    1
-    click element at coordinates    55    237      #1025,1598
-    click element    ${PRE_BTN_CHANGE_PASS_CURRENT_CONFIRM_PASS}
+    #click element at coordinates    55    237      #1025,1598
+    click element   //hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.widget.ScrollView[1]/android.widget.EditText[3]
+    #${PRE_BTN_CHANGE_PASS_CURRENT_CONFIRM_PASS}
     sleep    2
     press keycode    -1     #caps_lock
     press keycode    37     #i
@@ -107,8 +109,9 @@ TC_Preferences_Change_Pass_Same_Pass
     press keycode    10     #3
     press keycode    11     #4
     sleep    2
-    click element at coordinates    55    237      #1025,1598
-    tap    ${PRE_BTN_CHANGE_PASS_BTN_CONTINUE}
+    #click element at coordinates    55    237      #1025,1598
+    tap    //hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.widget.ScrollView[1]/android.widget.Button[1]
+    #${PRE_BTN_CHANGE_PASS_BTN_CONTINUE}
     wait until page contains element    ${l_message_error}
     go back
 
@@ -133,8 +136,9 @@ TC_Preferences_Change_Pass_Success
     press keycode    10     #3
     press keycode    11     #4
     sleep    3
-    click element at coordinates    55    237      #1025,1598
-    click element    ${PRE_BTN_CHANGE_PASS_CURRENT_NEW_PASS}
+    #click element at coordinates    55    237      #1025,1598
+    click element    //hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.widget.ScrollView[1]/android.widget.EditText[2]
+    #${PRE_BTN_CHANGE_PASS_CURRENT_NEW_PASS}
     press keycode    8     #1
     press keycode    9     #2
     press keycode    10     #3
@@ -145,8 +149,9 @@ TC_Preferences_Change_Pass_Success
     press keycode    43      #o
     press keycode    42     #n
     sleep    1
-    click element at coordinates    55    237      #1025,1598
-    click element    ${PRE_BTN_CHANGE_PASS_CURRENT_CONFIRM_PASS}
+    #click element at coordinates    55    237      #1025,1598
+    click element    //hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.widget.ScrollView[1]/android.widget.EditText[3]
+    #${PRE_BTN_CHANGE_PASS_CURRENT_CONFIRM_PASS}
     sleep    2
     press keycode    8     #1
     press keycode    9     #2
@@ -158,21 +163,23 @@ TC_Preferences_Change_Pass_Success
     press keycode    43      #o
     press keycode    42     #n
     sleep    2
-    click element at coordinates    55    237      #1025,1598
-    tap    ${PRE_BTN_CHANGE_PASS_BTN_CONTINUE}
+    #click element at coordinates    55    237      #1025,1598
+    tap    //hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.widget.ScrollView[1]/android.widget.Button[1]
+    #${PRE_BTN_CHANGE_PASS_BTN_CONTINUE}
     wait until page contains element    ${l_message_error}
     go back
 
 TC_Preferences_Change_CurrentPass_Different
 #Validar que el viejo pass no coincide y que el new pass es diferente al confirm
     tap    ${MY_ACCOUNT_BTN_PREFERENCES}
-    sleep    1
+    sleep    2
     tap    ${PRE_BTN_CHANGE_PASS}
-    sleep    1
+    sleep    2
     tap    ${PRE_BTN_CHANGE_PASS_CURRENT_PASS}
-    sleep    1
-    tap    ${PRE_BTN_CHANGE_PASS_CURRENT_BTN_CONTINUE}
-    sleep    1
+    sleep    2
+    tap    //hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.widget.ScrollView[1]/android.widget.Button[1]
+    #${PRE_BTN_CHANGE_PASS_CURRENT_BTN_CONTINUE}
+    sleep    2
     click element    ${PRE_BTN_CHANGE_PASS_CURRENT_OLD_PASS}
     press keycode    -1    37    #caps_lock
     press keycode    37     #i
@@ -185,8 +192,9 @@ TC_Preferences_Change_CurrentPass_Different
     press keycode    11     #4
     press keycode    12     #5
     sleep    3
-    click element at coordinates    55    237      #1025,1598
-    click element    ${PRE_BTN_CHANGE_PASS_CURRENT_NEW_PASS}
+    #click element at coordinates    55    237      #1025,1598
+    click element    //hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.widget.ScrollView[1]/android.widget.EditText[2]
+    #${PRE_BTN_CHANGE_PASS_CURRENT_NEW_PASS}
     press keycode    -1    #caps_lock
     press keycode    37     #i
     press keycode    39     #k
@@ -197,8 +205,9 @@ TC_Preferences_Change_CurrentPass_Different
     press keycode    10     #3
     press keycode    11     #4
     sleep    1
-    click element at coordinates    55    237      #1025,1598
-    click element    ${PRE_BTN_CHANGE_PASS_CURRENT_CONFIRM_PASS}
+    #click element at coordinates    55    237      #1025,1598
+    click element    //hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.widget.ScrollView[1]/android.widget.EditText[3]
+    #${PRE_BTN_CHANGE_PASS_CURRENT_CONFIRM_PASS}
     sleep    2
     press keycode    -1     #caps_lock
     press keycode    37     #i
@@ -210,8 +219,9 @@ TC_Preferences_Change_CurrentPass_Different
     press keycode    10     #3
     press keycode    11     #4
     sleep    2
-    click element at coordinates    55    237      #1025,1598
-    tap    ${PRE_BTN_CHANGE_PASS_BTN_CONTINUE}
+    #click element at coordinates    55    237      #1025,1598
+    tap    //hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.widget.ScrollView[1]/android.widget.Button[1]
+    #${PRE_BTN_CHANGE_PASS_BTN_CONTINUE}
     wait until page contains element    ${l_message_error}
     go back
 
