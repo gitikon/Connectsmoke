@@ -18,6 +18,6 @@ ${DASH_VALET_BOUNDARY}    //*[@content-desc="20%"]
 //hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[3]/android.widget.SeekBar[2]
 ${DASH_VALET_CONFIRM_RANGE}    //*[@content-desc="Confirm Range Values"]
 //hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[3]/android.widget.Button[1]
-
+${Valet_new}
 
 
