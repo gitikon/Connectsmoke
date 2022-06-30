@@ -14,12 +14,13 @@ Automation_Preferences_Testcases
     Enter_To_Profile
     Accept_User_Data
     TC_Enter_Preferences
-    #TC_Preferences_Privacy Policy
-    #TC_Preferences_Battery_Switches
-    #TC_Preferences_Change_Pass_Same_Pass
-    #TC_Preferences_Change_Pass_Success
-    #TC_Preferences_Change_CurrentPass_Different
-    #TC_Preferences_Change_Confirm_Pass_Different
-    TC_Preferences_Change_Pass_White_Blank
+    TC_Preferences_Privacy Policy    #good
+    TC_Preferences_Battery_Switches    #good
+    TC_Preferences_Enter_to_Change_Password    #good
+    TC_Preferences_Change_Pass_White_Blank    #good
+    TC_Preferences_Change_Pass_Same_Pass    #good
+    TC_Preferences_Change_CurrentPass_Different    #good
+    TC_Preferences_Change_Confirm_Pass_Different    #good
+    TC_Preferences_Change_Pass_Success    #good
     close application
     #stop video recording

@@ -26,10 +26,12 @@ ${PRE_BTN_CHANGE_PASS_CURRENT_NEW_PASS}    //hierarchy/android.widget.FrameLayou
 ${PRE_BTN_CHANGE_PASS_CURRENT_CONFIRM_PASS}    //hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[2]/android.widget.EditText[3]
 #//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[2]/android.widget.EditText[3]
 #//*[@text="Confirm here your new password"]
-${PRE_BTN_CHANGE_PASS_CURRENT_BTN_CONTINUE}    //hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.widget.Button[1]
+${PRE_BTN_CHANGE_PASS_CURRENT_BTN_CONTINUE}    //android.widget.Button[@content-desc="Continue"]
+#//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.widget.Button[1]
 #//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[2]/android.widget.Button[1]
 #//android.widget.Button[@content-desc="Continue"]
-${PRE_BTN_CHANGE_PASS_BTN_CONTINUE}    //hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[2]/android.widget.Button[1]
+${PRE_BTN_CHANGE_PASS_BTN_CONTINUE}    //*[@content-desc="Continue"]
+#//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[2]/android.widget.Button[1]
 #//*[@content-desc="Continue"]
 ${PRE_BTN_CHANGE_PASS_VERIFICATION_CODE}    //hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.RadioButton[2]
 ${PRE_BTN_CHANGE_PASS_VERIFICATION_CODE_ENTER_CODE}    //hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.ScrollView/android.widget.EditText
@@ -43,4 +45,6 @@ ${PRE_PRIVACY_POLICY_CLOSE}    //hierarchy/android.widget.FrameLayout[1]/android
 #//hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View[1]/android.view.View/android.view.View[1]/android.widget.Button
 ${PRE_PRIVACY_POLICY_CONTENT}
 ${PRE_BTN_CHANGE_PASS_CURRENT_ERROR_NOT_SAME}    //android.view.View[@content-desc="Error New and old passwords cannot be the same "]
-${PRE_BTN_CHANGE_PASS_CURRENT_NOT_BLANK}    (//android.view.View[@content-desc="Cannot be blank"])[1]
+${PRE_BTN_CHANGE_PASS_CURRENT_NOT_BLANK}    //hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[2]/android.widget.EditText[1]/android.view.View[1]
+#//*[@text="Type  your old password"]//*[@content-desc="Cannot be blank"]
+#//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[2]/android.widget.EditText[1]/android.view.View[1]

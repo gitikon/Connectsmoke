@@ -14,18 +14,21 @@ TC_Enter_Preferences
     #click button    ${MY_ACCOUNT_BTN_PREFERENCES}
     #click element at coordinates    235    178
 
-TC_Preferences_Change_Password_Button
+TC_Preferences_Enter_to_Change_Password
+    log to console    "*******************START_Enter_to_Change_Password********************"
+    sleep    2
+    tap    ${MY_ACCOUNT_BTN_PREFERENCES}
+    sleep    1
     tap    ${PRE_BTN_CHANGE_PASS}
-
-TC_Preferences_Current_Password
+    sleep    3
     tap    ${PRE_BTN_CHANGE_PASS_CURRENT_PASS}
+    sleep    1
     tap    ${PRE_BTN_CHANGE_PASS_BTN_CONTINUE}
-
-TC_Preferences_Verification_Code
-    tap    ${PRE_BTN_CHANGE_PASS_VERIFICATION_CODE}
-    tap    ${PRE_BTN_CHANGE_PASS_BTN_CONTINUE}
+    log to console    "*******************END_Enter_to_Change_Password********************"
 
 TC_Preferences_Privacy Policy
+
+    log to console    "*******************START_Privacy_Policy*********************"
     tap    ${PRE_PRIVACY_POLICY}
     #page should contain element    ${PRE_PRIVACY_POLICY_CONTENT}
     sleep    2
@@ -36,8 +39,10 @@ TC_Preferences_Privacy Policy
     tap    ${PRE_PRIVACY_POLICY_CLOSE}
     END
     sleep    3
+    log to console    "*******************END_Privacy_Policy*********************"
 
 TC_Preferences_Battery_Switches
+    log to console    "*******************START_Battery_Switches_Measurement*********************"
     tap    ${PRE_SWITCH_WARNING_BAT}
     sleep    1
     tap    ${PRE_SWITCH_PLUG_UNPLU_BAT}
@@ -60,17 +65,12 @@ TC_Preferences_Battery_Switches
     sleep    1
     tap    ${PRE_SWITCH_PLUG_UNPLU_BAT}
     sleep    1
+    log to console    "*******************END_Battery_Switches_Measurement*********************"
 
 TC_Preferences_Change_Pass_Same_Pass
 #El mismo password al que esta
-    tap    ${MY_ACCOUNT_BTN_PREFERENCES}
-    sleep    1
-    tap    ${PRE_BTN_CHANGE_PASS}
-    sleep    1
-    tap    ${PRE_BTN_CHANGE_PASS_CURRENT_PASS}
-    sleep    1
-    tap    ${PRE_BTN_CHANGE_PASS_CURRENT_BTN_CONTINUE}
-    sleep    1
+    log to console    "*******************START_Same_Pass*********************"
+    sleep    3
     click element    ${PRE_BTN_CHANGE_PASS_CURRENT_OLD_PASS}
     press keycode    -1    37    #caps_lock
     press keycode    37     #i
@@ -110,19 +110,17 @@ TC_Preferences_Change_Pass_Same_Pass
     click element at coordinates    55    237      #1025,1598
     tap    ${PRE_BTN_CHANGE_PASS_BTN_CONTINUE}
     wait until page contains element    ${l_message_error}
-    go back
+    log to console    "*******************END_Same_Pass*********************"
 
 TC_Preferences_Change_Pass_Success
 #cuando el password se cambia sin problema
-    tap    ${MY_ACCOUNT_BTN_PREFERENCES}
-    sleep    1
-    tap    ${PRE_BTN_CHANGE_PASS}
-    sleep    1
-    tap    ${PRE_BTN_CHANGE_PASS_CURRENT_PASS}
-    sleep    1
-    tap    ${PRE_BTN_CHANGE_PASS_CURRENT_BTN_CONTINUE}
-    sleep    1
+    log to console    "*******************START_Change_Pass_Success*********************"
+    sleep    3
     click element    ${PRE_BTN_CHANGE_PASS_CURRENT_OLD_PASS}
+    sleep    2
+    FOR    ${i}    IN RANGE    0    9
+        press keycode    67   #delete
+    END
     press keycode    -1    37    #caps_lock
     press keycode    37     #i
     press keycode    39     #k
@@ -135,6 +133,10 @@ TC_Preferences_Change_Pass_Success
     sleep    3
     click element at coordinates    55    237      #1025,1598
     click element    ${PRE_BTN_CHANGE_PASS_CURRENT_NEW_PASS}
+    sleep    2
+    FOR    ${i}    IN RANGE    0    9
+        press keycode    67    #delete
+    END
     press keycode    8     #1
     press keycode    9     #2
     press keycode    10     #3
@@ -147,6 +149,9 @@ TC_Preferences_Change_Pass_Success
     sleep    1
     click element at coordinates    55    237      #1025,1598
     click element    ${PRE_BTN_CHANGE_PASS_CURRENT_CONFIRM_PASS}
+    FOR    ${i}    IN RANGE    0    9
+        press keycode    67    #delete
+    END
     sleep    2
     press keycode    8     #1
     press keycode    9     #2
@@ -161,19 +166,16 @@ TC_Preferences_Change_Pass_Success
     click element at coordinates    55    237      #1025,1598
     tap    ${PRE_BTN_CHANGE_PASS_BTN_CONTINUE}
     wait until page contains element    ${l_message_error}
-    go back
+    log to console    "*******************END_Change_Pass_Success*********************"
 
 TC_Preferences_Change_CurrentPass_Different
 #Validar que el viejo pass no coincide y que el new pass es diferente al confirm
-    tap    ${MY_ACCOUNT_BTN_PREFERENCES}
-    sleep    1
-    tap    ${PRE_BTN_CHANGE_PASS}
-    sleep    1
-    tap    ${PRE_BTN_CHANGE_PASS_CURRENT_PASS}
-    sleep    1
-    tap    ${PRE_BTN_CHANGE_PASS_CURRENT_BTN_CONTINUE}
-    sleep    1
+    log to console    "*******************START_Current_Pass_Different*********************"
+    sleep    4
     click element    ${PRE_BTN_CHANGE_PASS_CURRENT_OLD_PASS}
+    FOR    ${i}    IN RANGE    0    9
+        press keycode    67    #delete
+    END
     press keycode    -1    37    #caps_lock
     press keycode    37     #i
     press keycode    39     #k
@@ -187,6 +189,9 @@ TC_Preferences_Change_CurrentPass_Different
     sleep    3
     click element at coordinates    55    237      #1025,1598
     click element    ${PRE_BTN_CHANGE_PASS_CURRENT_NEW_PASS}
+    FOR    ${i}    IN RANGE    0    9
+        press keycode    67    #delete
+    END
     press keycode    -1    #caps_lock
     press keycode    37     #i
     press keycode    39     #k
@@ -199,6 +204,9 @@ TC_Preferences_Change_CurrentPass_Different
     sleep    1
     click element at coordinates    55    237      #1025,1598
     click element    ${PRE_BTN_CHANGE_PASS_CURRENT_CONFIRM_PASS}
+    FOR    ${i}    IN RANGE    0    9
+        press keycode    67    #delete
+    END
     sleep    2
     press keycode    -1     #caps_lock
     press keycode    37     #i
@@ -213,19 +221,16 @@ TC_Preferences_Change_CurrentPass_Different
     click element at coordinates    55    237      #1025,1598
     tap    ${PRE_BTN_CHANGE_PASS_BTN_CONTINUE}
     wait until page contains element    ${l_message_error}
-    go back
+    log to console    "*******************END_Current_Pass_Different*********************"
 
 TC_Preferences_Change_Confirm_Pass_Different
 #Validar que el viejo pass no coincide y que el new pass es diferente al confirm
-    tap    ${MY_ACCOUNT_BTN_PREFERENCES}
-    sleep    1
-    tap    ${PRE_BTN_CHANGE_PASS}
-    sleep    1
-    tap    ${PRE_BTN_CHANGE_PASS_CURRENT_PASS}
-    sleep    1
-    tap    ${PRE_BTN_CHANGE_PASS_CURRENT_BTN_CONTINUE}
-    sleep    1
+    log to console    "*******************START_Diferent_Pass*********************"
+    sleep    4
     click element    ${PRE_BTN_CHANGE_PASS_CURRENT_OLD_PASS}
+    FOR    ${i}    IN RANGE    0    9
+        press keycode    67    #delete
+    END
     press keycode    8     #1
     press keycode    9     #2
     press keycode    10     #3
@@ -238,6 +243,9 @@ TC_Preferences_Change_Confirm_Pass_Different
     sleep    3
     click element at coordinates    55    237      #1025,1598
     click element    ${PRE_BTN_CHANGE_PASS_CURRENT_NEW_PASS}
+    FOR    ${i}    IN RANGE    0    9
+        press keycode    67    #delete
+    END
     press keycode    -1    #caps_lock
     press keycode    37     #i
     press keycode    39     #k
@@ -250,6 +258,9 @@ TC_Preferences_Change_Confirm_Pass_Different
     sleep    1
     click element at coordinates    55    237      #1025,1598
     click element    ${PRE_BTN_CHANGE_PASS_CURRENT_CONFIRM_PASS}
+    FOR    ${i}    IN RANGE    0    9
+        press keycode    67    #delete
+    END
     sleep    2
     press keycode    -1     #caps_lock
     press keycode    37     #i
@@ -265,21 +276,23 @@ TC_Preferences_Change_Confirm_Pass_Different
     click element at coordinates    55    237      #1025,1598
     tap    ${PRE_BTN_CHANGE_PASS_BTN_CONTINUE}
     wait until page contains element    ${l_message_error}
-    go back
+    log to console    "*******************END_Diferent_Pass*********************"
 
 TC_Preferences_Change_Pass_White_Blank
-    sleep    2
-    tap    ${MY_ACCOUNT_BTN_PREFERENCES}
-    sleep    1
-    tap    ${PRE_BTN_CHANGE_PASS}
-    sleep    1
-    tap    ${PRE_BTN_CHANGE_PASS_CURRENT_PASS}
-    sleep    1
-    tap    ${PRE_BTN_CHANGE_PASS_BTN_CONTINUE}
-    sleep    2
+#Verificar que salga el letrero al querer guardar con espacios en blanco
+    log to console    "*******************START_White_Blank*********************"
+    #sleep    2
+    #tap    ${MY_ACCOUNT_BTN_PREFERENCES}
+    #sleep    1
+    #tap    ${PRE_BTN_CHANGE_PASS}
+    #sleep    3
+    #tap    ${PRE_BTN_CHANGE_PASS_CURRENT_PASS}
+    #sleep    1
+    #tap    ${PRE_BTN_CHANGE_PASS_BTN_CONTINUE}
+    #sleep    2
     tap    ${PRE_BTN_CHANGE_PASS_CURRENT_BTN_CONTINUE}
-    wait until page contains element    ${l_message_error}
-    go back
+    wait until page contains element    ${pre_btn_change_pass_current_not_blank}
+    log to console    "*******************END_White_Blank*********************"
 
 TC_Change_Pass_SMS
     tap    ${PRE_BTN_CHANGE_PASS}
