@@ -16,7 +16,7 @@ TC_Activate_Quick_Mode
 
 TC_Activate_Custom_Mode
 
-    wait until page contains element    ${dash_valet_custom}
+    wait until page contains element    ${dash_valet_custom}    60
     tap    ${dash_valet_custom}
     sleep    10
 
@@ -29,7 +29,7 @@ TC_Activate_Custom_Mode_First_time
 
 TC_Edit_CUstom_mode
 
-    #wait until page contains element    ${dash_valet_edit}
+    wait until page contains element    ${dash_valet_edit}    60
     sleep    3
     tap    ${dash_valet_edit}
     sleep    3
