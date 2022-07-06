@@ -8,12 +8,13 @@ Resource    ../Variables/V_Preferences.robot
 *** Keywords ***
 Open_Ikon_Connect
     ${connect}    open application    http://localhost:4723/wd/hub    platformName=Android    deviceName=R58M82NQQ6F     appPackage=com.ikontechnologies.fordofmurfreesboro.connect    appActivity=com.ikontechnologies.iconnect.MainActivity       automationName=Uiautomator2
+    #${connect}    open application    http://localhost:4723/wd/hub    platformName=iOS    deviceName=com.apple.CoreSimulator.SimDeviceType.iPhone-XS   appPackage=com.ikontechnologies.fordofmurfreesboro.connect    appActivity=com.ikontechnologies.iconnect.MainActivity       automationName=XCUITest
     #${connect}    open application    http://localhost:4723/wd/hub    platformName=Android    deviceName=R58M82NQQ6F     appPackage=com.ikontechnologies.henkelcdjr.connect    appActivity=com.ikontechnologies.iconnect.MainActivity       automationName=Uiautomator2
     #${connect}    open application    http://localhost:4723/wd/hub    platformName=Android    deviceName=R58M82NQQ6F     appPackage=com.ikontechnologies.jameswood.connect    appActivity=com.ikontechnologies.iconnect.MainActivity       automationName=Uiautomator2
     #emulator-5554
 
 Open_Wikipedia
-    open application    http://localhost:4723/wd/hub    platformName=Android    deviceName=R58M82NQQ6F     appPackage=org.wikipedia    appActivity=org.wikipedia.main.MainActivity       automationName=Uiautomator2
+    #open application    http://localhost:4723/wd/hub    platformName=Android    deviceName=R58M82NQQ6F     appPackage=org.wikipedia    appActivity=org.wikipedia.main.MainActivity       automationName=Uiautomator2
 
 Terms
     sleep    2

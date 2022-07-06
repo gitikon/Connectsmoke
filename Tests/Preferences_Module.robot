@@ -24,3 +24,5 @@ Automation_Preferences_Testcases
     TC_Preferences_Change_Pass_Success    #good
     close application
     #stop video recording
+
+    #udid 00008020-001450AA3EE8003A    G0NXV7PLKPFP
