@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 5.0.1 (Python 3.10.5 on darwin)" generated="20220706 15:19:26.641" rpa="false" schemaversion="3">
-<suite id="s1" name="Preferences Module" source="/Users/javiertorres/Connectsmoke/Tests/Preferences_Module.robot">
-<test id="s1-t1" name="Automation_Preferences_Testcases" line="9">
+<robot generator="Robot 5.0.1 (Python 3.10.5 on darwin)" generated="20220711 16:59:08.136" rpa="false" schemaversion="3">
+<suite id="s1" name="New Valet Module" source="/Users/javiertorres/Connectsmoke/Tests/New_Valet_Module.robot">
+<test id="s1-t1" name="Automation_Preferences_Testcases" line="10">
 <kw name="Open_Ikon_Connect" library="K_Login">
 <kw name="Open Application" library="AppiumLibrary">
 <var>${connect}</var>
@@ -17,17 +17,17 @@ Please check https://github.com/appium/appium/blob/master/docs/en/writing-runnin
 | *Option*            | *Man.* | *Description*     |
 | remote_url          | Yes    | Appium server url |
 | alias               | no     | alias             |</doc>
-<msg timestamp="20220706 15:19:48.472" level="INFO">${connect} = 1</msg>
-<status status="PASS" starttime="20220706 15:19:26.838" endtime="20220706 15:19:48.472"/>
+<msg timestamp="20220711 16:59:17.579" level="INFO">${connect} = 1</msg>
+<status status="PASS" starttime="20220711 16:59:08.217" endtime="20220711 16:59:17.579"/>
 </kw>
-<status status="PASS" starttime="20220706 15:19:26.838" endtime="20220706 15:19:48.472"/>
+<status status="PASS" starttime="20220711 16:59:08.216" endtime="20220711 16:59:17.579"/>
 </kw>
 <kw name="Terms" library="K_Login">
 <kw name="Sleep" library="BuiltIn">
 <arg>2</arg>
 <doc>Pauses the test executed for the given time.</doc>
-<msg timestamp="20220706 15:19:50.475" level="INFO">Slept 2 seconds</msg>
-<status status="PASS" starttime="20220706 15:19:48.473" endtime="20220706 15:19:50.476"/>
+<msg timestamp="20220711 16:59:19.581" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20220711 16:59:17.580" endtime="20220711 16:59:19.582"/>
 </kw>
 <for flavor="IN RANGE">
 <var>${i}</var>
@@ -41,9 +41,9 @@ Please check https://github.com/appium/appium/blob/master/docs/en/writing-runnin
 <arg>518</arg>
 <arg>474</arg>
 <doc>Swipe from one point to another point, for an optional duration.</doc>
-<status status="PASS" starttime="20220706 15:19:50.477" endtime="20220706 15:19:51.540"/>
+<status status="PASS" starttime="20220711 16:59:19.584" endtime="20220711 16:59:20.643"/>
 </kw>
-<status status="PASS" starttime="20220706 15:19:50.476" endtime="20220706 15:19:51.540"/>
+<status status="PASS" starttime="20220711 16:59:19.583" endtime="20220711 16:59:20.643"/>
 </iter>
 <iter>
 <var name="${i}">1</var>
@@ -53,9 +53,9 @@ Please check https://github.com/appium/appium/blob/master/docs/en/writing-runnin
 <arg>518</arg>
 <arg>474</arg>
 <doc>Swipe from one point to another point, for an optional duration.</doc>
-<status status="PASS" starttime="20220706 15:19:51.541" endtime="20220706 15:19:52.552"/>
+<status status="PASS" starttime="20220711 16:59:20.644" endtime="20220711 16:59:21.698"/>
 </kw>
-<status status="PASS" starttime="20220706 15:19:51.540" endtime="20220706 15:19:52.552"/>
+<status status="PASS" starttime="20220711 16:59:20.644" endtime="20220711 16:59:21.698"/>
 </iter>
 <iter>
 <var name="${i}">2</var>
@@ -65,9 +65,9 @@ Please check https://github.com/appium/appium/blob/master/docs/en/writing-runnin
 <arg>518</arg>
 <arg>474</arg>
 <doc>Swipe from one point to another point, for an optional duration.</doc>
-<status status="PASS" starttime="20220706 15:19:52.552" endtime="20220706 15:19:53.611"/>
+<status status="PASS" starttime="20220711 16:59:21.699" endtime="20220711 16:59:22.774"/>
 </kw>
-<status status="PASS" starttime="20220706 15:19:52.552" endtime="20220706 15:19:53.611"/>
+<status status="PASS" starttime="20220711 16:59:21.698" endtime="20220711 16:59:22.774"/>
 </iter>
 <iter>
 <var name="${i}">3</var>
@@ -77,9 +77,9 @@ Please check https://github.com/appium/appium/blob/master/docs/en/writing-runnin
 <arg>518</arg>
 <arg>474</arg>
 <doc>Swipe from one point to another point, for an optional duration.</doc>
-<status status="PASS" starttime="20220706 15:19:53.611" endtime="20220706 15:19:54.650"/>
+<status status="PASS" starttime="20220711 16:59:22.775" endtime="20220711 16:59:23.828"/>
 </kw>
-<status status="PASS" starttime="20220706 15:19:53.611" endtime="20220706 15:19:54.650"/>
+<status status="PASS" starttime="20220711 16:59:22.774" endtime="20220711 16:59:23.828"/>
 </iter>
 <iter>
 <var name="${i}">4</var>
@@ -89,9 +89,9 @@ Please check https://github.com/appium/appium/blob/master/docs/en/writing-runnin
 <arg>518</arg>
 <arg>474</arg>
 <doc>Swipe from one point to another point, for an optional duration.</doc>
-<status status="PASS" starttime="20220706 15:19:54.651" endtime="20220706 15:19:55.645"/>
+<status status="PASS" starttime="20220711 16:59:23.829" endtime="20220711 16:59:24.865"/>
 </kw>
-<status status="PASS" starttime="20220706 15:19:54.651" endtime="20220706 15:19:55.645"/>
+<status status="PASS" starttime="20220711 16:59:23.828" endtime="20220711 16:59:24.865"/>
 </iter>
 <iter>
 <var name="${i}">5</var>
@@ -101,9 +101,9 @@ Please check https://github.com/appium/appium/blob/master/docs/en/writing-runnin
 <arg>518</arg>
 <arg>474</arg>
 <doc>Swipe from one point to another point, for an optional duration.</doc>
-<status status="PASS" starttime="20220706 15:19:55.646" endtime="20220706 15:19:56.657"/>
+<status status="PASS" starttime="20220711 16:59:24.866" endtime="20220711 16:59:25.876"/>
 </kw>
-<status status="PASS" starttime="20220706 15:19:55.646" endtime="20220706 15:19:56.657"/>
+<status status="PASS" starttime="20220711 16:59:24.865" endtime="20220711 16:59:25.877"/>
 </iter>
 <iter>
 <var name="${i}">6</var>
@@ -113,9 +113,9 @@ Please check https://github.com/appium/appium/blob/master/docs/en/writing-runnin
 <arg>518</arg>
 <arg>474</arg>
 <doc>Swipe from one point to another point, for an optional duration.</doc>
-<status status="PASS" starttime="20220706 15:19:56.657" endtime="20220706 15:19:57.664"/>
+<status status="PASS" starttime="20220711 16:59:25.878" endtime="20220711 16:59:26.888"/>
 </kw>
-<status status="PASS" starttime="20220706 15:19:56.657" endtime="20220706 15:19:57.664"/>
+<status status="PASS" starttime="20220711 16:59:25.877" endtime="20220711 16:59:26.888"/>
 </iter>
 <iter>
 <var name="${i}">7</var>
@@ -125,9 +125,9 @@ Please check https://github.com/appium/appium/blob/master/docs/en/writing-runnin
 <arg>518</arg>
 <arg>474</arg>
 <doc>Swipe from one point to another point, for an optional duration.</doc>
-<status status="PASS" starttime="20220706 15:19:57.664" endtime="20220706 15:19:58.674"/>
+<status status="PASS" starttime="20220711 16:59:26.889" endtime="20220711 16:59:27.884"/>
 </kw>
-<status status="PASS" starttime="20220706 15:19:57.664" endtime="20220706 15:19:58.674"/>
+<status status="PASS" starttime="20220711 16:59:26.888" endtime="20220711 16:59:27.885"/>
 </iter>
 <iter>
 <var name="${i}">8</var>
@@ -137,9 +137,9 @@ Please check https://github.com/appium/appium/blob/master/docs/en/writing-runnin
 <arg>518</arg>
 <arg>474</arg>
 <doc>Swipe from one point to another point, for an optional duration.</doc>
-<status status="PASS" starttime="20220706 15:19:58.675" endtime="20220706 15:19:59.744"/>
+<status status="PASS" starttime="20220711 16:59:27.885" endtime="20220711 16:59:28.864"/>
 </kw>
-<status status="PASS" starttime="20220706 15:19:58.675" endtime="20220706 15:19:59.744"/>
+<status status="PASS" starttime="20220711 16:59:27.885" endtime="20220711 16:59:28.864"/>
 </iter>
 <iter>
 <var name="${i}">9</var>
@@ -149,9 +149,9 @@ Please check https://github.com/appium/appium/blob/master/docs/en/writing-runnin
 <arg>518</arg>
 <arg>474</arg>
 <doc>Swipe from one point to another point, for an optional duration.</doc>
-<status status="PASS" starttime="20220706 15:19:59.745" endtime="20220706 15:20:00.799"/>
+<status status="PASS" starttime="20220711 16:59:28.865" endtime="20220711 16:59:29.890"/>
 </kw>
-<status status="PASS" starttime="20220706 15:19:59.744" endtime="20220706 15:20:00.799"/>
+<status status="PASS" starttime="20220711 16:59:28.864" endtime="20220711 16:59:29.891"/>
 </iter>
 <iter>
 <var name="${i}">10</var>
@@ -161,9 +161,9 @@ Please check https://github.com/appium/appium/blob/master/docs/en/writing-runnin
 <arg>518</arg>
 <arg>474</arg>
 <doc>Swipe from one point to another point, for an optional duration.</doc>
-<status status="PASS" starttime="20220706 15:20:00.800" endtime="20220706 15:20:01.807"/>
+<status status="PASS" starttime="20220711 16:59:29.892" endtime="20220711 16:59:30.923"/>
 </kw>
-<status status="PASS" starttime="20220706 15:20:00.800" endtime="20220706 15:20:01.807"/>
+<status status="PASS" starttime="20220711 16:59:29.891" endtime="20220711 16:59:30.923"/>
 </iter>
 <iter>
 <var name="${i}">11</var>
@@ -173,9 +173,9 @@ Please check https://github.com/appium/appium/blob/master/docs/en/writing-runnin
 <arg>518</arg>
 <arg>474</arg>
 <doc>Swipe from one point to another point, for an optional duration.</doc>
-<status status="PASS" starttime="20220706 15:20:01.808" endtime="20220706 15:20:02.818"/>
+<status status="PASS" starttime="20220711 16:59:30.923" endtime="20220711 16:59:31.991"/>
 </kw>
-<status status="PASS" starttime="20220706 15:20:01.808" endtime="20220706 15:20:02.818"/>
+<status status="PASS" starttime="20220711 16:59:30.923" endtime="20220711 16:59:31.991"/>
 </iter>
 <iter>
 <var name="${i}">12</var>
@@ -185,9 +185,9 @@ Please check https://github.com/appium/appium/blob/master/docs/en/writing-runnin
 <arg>518</arg>
 <arg>474</arg>
 <doc>Swipe from one point to another point, for an optional duration.</doc>
-<status status="PASS" starttime="20220706 15:20:02.819" endtime="20220706 15:20:03.813"/>
+<status status="PASS" starttime="20220711 16:59:31.992" endtime="20220711 16:59:33.043"/>
 </kw>
-<status status="PASS" starttime="20220706 15:20:02.818" endtime="20220706 15:20:03.813"/>
+<status status="PASS" starttime="20220711 16:59:31.992" endtime="20220711 16:59:33.043"/>
 </iter>
 <iter>
 <var name="${i}">13</var>
@@ -197,9 +197,9 @@ Please check https://github.com/appium/appium/blob/master/docs/en/writing-runnin
 <arg>518</arg>
 <arg>474</arg>
 <doc>Swipe from one point to another point, for an optional duration.</doc>
-<status status="PASS" starttime="20220706 15:20:03.814" endtime="20220706 15:20:04.814"/>
+<status status="PASS" starttime="20220711 16:59:33.044" endtime="20220711 16:59:34.034"/>
 </kw>
-<status status="PASS" starttime="20220706 15:20:03.813" endtime="20220706 15:20:04.814"/>
+<status status="PASS" starttime="20220711 16:59:33.044" endtime="20220711 16:59:34.034"/>
 </iter>
 <iter>
 <var name="${i}">14</var>
@@ -209,2289 +209,176 @@ Please check https://github.com/appium/appium/blob/master/docs/en/writing-runnin
 <arg>518</arg>
 <arg>474</arg>
 <doc>Swipe from one point to another point, for an optional duration.</doc>
-<status status="PASS" starttime="20220706 15:20:04.815" endtime="20220706 15:20:05.839"/>
+<status status="PASS" starttime="20220711 16:59:34.035" endtime="20220711 16:59:35.063"/>
 </kw>
-<status status="PASS" starttime="20220706 15:20:04.815" endtime="20220706 15:20:05.839"/>
+<status status="PASS" starttime="20220711 16:59:34.034" endtime="20220711 16:59:35.063"/>
 </iter>
-<status status="PASS" starttime="20220706 15:19:50.476" endtime="20220706 15:20:05.839"/>
+<status status="PASS" starttime="20220711 16:59:19.582" endtime="20220711 16:59:35.063"/>
 </for>
 <kw name="Click Element" library="AppiumLibrary">
 <arg>${btn_login}</arg>
 <doc>Click element identified by `locator`.</doc>
-<msg timestamp="20220706 15:20:05.849" level="INFO">Clicking element '//*[@content-desc="Accept terms and conditions"]'.</msg>
-<status status="PASS" starttime="20220706 15:20:05.840" endtime="20220706 15:20:07.068"/>
+<msg timestamp="20220711 16:59:35.067" level="INFO">Clicking element '//*[@content-desc="Accept terms and conditions"]'.</msg>
+<status status="PASS" starttime="20220711 16:59:35.064" endtime="20220711 16:59:36.501"/>
 </kw>
-<status status="PASS" starttime="20220706 15:19:48.472" endtime="20220706 15:20:07.069"/>
+<status status="PASS" starttime="20220711 16:59:17.579" endtime="20220711 16:59:36.501"/>
 </kw>
 <kw name="Login" library="K_Login">
 <kw name="Log To Console" library="BuiltIn">
 <arg>"*******************START_LOGIN*********************"</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" starttime="20220706 15:20:07.069" endtime="20220706 15:20:07.070"/>
+<status status="PASS" starttime="20220711 16:59:36.503" endtime="20220711 16:59:36.504"/>
 </kw>
 <kw name="Tap" library="AppiumLibrary">
 <arg>${l_show_password}</arg>
 <doc>Tap element identified by ``locator``. </doc>
-<status status="PASS" starttime="20220706 15:20:07.070" endtime="20220706 15:20:08.035"/>
+<status status="PASS" starttime="20220711 16:59:36.504" endtime="20220711 16:59:37.503"/>
 </kw>
 <kw name="Tap" library="AppiumLibrary">
 <arg>${l_email}</arg>
 <doc>Tap element identified by ``locator``. </doc>
-<status status="PASS" starttime="20220706 15:20:08.036" endtime="20220706 15:20:08.954"/>
+<status status="PASS" starttime="20220711 16:59:37.503" endtime="20220711 16:59:37.812"/>
 </kw>
 <kw name="Input Text" library="AppiumLibrary">
 <arg>${l_email}</arg>
 <arg>javierikon3@mailinator.com</arg>
 <doc>Types the given `text` into text field identified by `locator`.</doc>
-<msg timestamp="20220706 15:20:08.967" level="INFO">Typing text 'javierikon3@mailinator.com' into text field '//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.widget.ScrollView[1]/android.widget.EditText[1]'</msg>
-<status status="PASS" starttime="20220706 15:20:08.954" endtime="20220706 15:20:10.077"/>
+<msg timestamp="20220711 16:59:37.818" level="INFO">Typing text 'javierikon3@mailinator.com' into text field '//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.widget.ScrollView[1]/android.widget.EditText[1]'</msg>
+<status status="PASS" starttime="20220711 16:59:37.813" endtime="20220711 16:59:38.925"/>
 </kw>
 <kw name="Tap" library="AppiumLibrary">
 <arg>${l_password}</arg>
 <doc>Tap element identified by ``locator``. </doc>
-<status status="PASS" starttime="20220706 15:20:10.077" endtime="20220706 15:20:11.457"/>
+<status status="PASS" starttime="20220711 16:59:38.925" endtime="20220711 16:59:39.607"/>
 </kw>
 <kw name="Input Password" library="AppiumLibrary">
 <arg>${l_password}</arg>
 <arg>Ikon1234</arg>
 <doc>Types the given password into text field identified by `locator`.</doc>
-<msg timestamp="20220706 15:20:11.463" level="INFO">Typing password into text field '//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.widget.ScrollView[1]/android.widget.EditText[2]'</msg>
-<status status="PASS" starttime="20220706 15:20:11.457" endtime="20220706 15:20:11.565"/>
+<msg timestamp="20220711 16:59:39.616" level="INFO">Typing password into text field '//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.widget.ScrollView[1]/android.widget.EditText[2]'</msg>
+<status status="PASS" starttime="20220711 16:59:39.608" endtime="20220711 16:59:40.411"/>
 </kw>
 <kw name="Tap" library="AppiumLibrary">
 <arg>${l_logo}</arg>
 <doc>Tap element identified by ``locator``. </doc>
-<status status="PASS" starttime="20220706 15:20:11.565" endtime="20220706 15:20:12.317"/>
+<status status="PASS" starttime="20220711 16:59:40.411" endtime="20220711 16:59:41.148"/>
 </kw>
 <kw name="Tap" library="AppiumLibrary">
 <arg>${l_btn_sign_in}</arg>
 <doc>Tap element identified by ``locator``. </doc>
-<status status="PASS" starttime="20220706 15:20:12.317" endtime="20220706 15:20:13.683"/>
+<status status="PASS" starttime="20220711 16:59:41.148" endtime="20220711 16:59:42.539"/>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <arg>5</arg>
 <doc>Pauses the test executed for the given time.</doc>
-<msg timestamp="20220706 15:20:18.685" level="INFO">Slept 5 seconds</msg>
-<status status="PASS" starttime="20220706 15:20:13.683" endtime="20220706 15:20:18.685"/>
+<msg timestamp="20220711 16:59:47.540" level="INFO">Slept 5 seconds</msg>
+<status status="PASS" starttime="20220711 16:59:42.539" endtime="20220711 16:59:47.540"/>
 </kw>
 <kw name="Log To Console" library="BuiltIn">
 <arg>"*******************END_LOGIN*********************"</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" starttime="20220706 15:20:18.685" endtime="20220706 15:20:18.685"/>
+<status status="PASS" starttime="20220711 16:59:47.541" endtime="20220711 16:59:47.541"/>
 </kw>
-<status status="PASS" starttime="20220706 15:20:07.069" endtime="20220706 15:20:18.686"/>
+<status status="PASS" starttime="20220711 16:59:36.503" endtime="20220711 16:59:47.541"/>
 </kw>
-<kw name="Enter_To_Profile" library="K_Dashboard">
-<kw name="Tap" library="AppiumLibrary">
-<arg>${dash_icon_profile}</arg>
-<doc>Tap element identified by ``locator``. </doc>
-<status status="PASS" starttime="20220706 15:20:18.686" endtime="20220706 15:20:19.020"/>
-</kw>
-<kw name="Sleep" library="BuiltIn">
-<arg>3</arg>
-<doc>Pauses the test executed for the given time.</doc>
-<msg timestamp="20220706 15:20:22.022" level="INFO">Slept 3 seconds</msg>
-<status status="PASS" starttime="20220706 15:20:19.020" endtime="20220706 15:20:22.022"/>
-</kw>
-<status status="PASS" starttime="20220706 15:20:18.686" endtime="20220706 15:20:22.023"/>
-</kw>
-<kw name="Accept_User_Data" library="K_Profile">
-<kw name="Tap" library="AppiumLibrary">
-<arg>${pro_user_data_security}</arg>
-<doc>Tap element identified by ``locator``. </doc>
-<status status="PASS" starttime="20220706 15:20:22.024" endtime="20220706 15:20:23.127"/>
-</kw>
-<kw name="Sleep" library="BuiltIn">
-<arg>3</arg>
-<doc>Pauses the test executed for the given time.</doc>
-<msg timestamp="20220706 15:20:26.130" level="INFO">Slept 3 seconds</msg>
-<status status="PASS" starttime="20220706 15:20:23.128" endtime="20220706 15:20:26.130"/>
-</kw>
-<status status="PASS" starttime="20220706 15:20:22.023" endtime="20220706 15:20:26.131"/>
-</kw>
-<kw name="TC_Enter_Preferences" library="K_Preferences">
-<kw name="Sleep" library="BuiltIn">
-<arg>2</arg>
-<doc>Pauses the test executed for the given time.</doc>
-<msg timestamp="20220706 15:20:28.134" level="INFO">Slept 2 seconds</msg>
-<status status="PASS" starttime="20220706 15:20:26.132" endtime="20220706 15:20:28.134"/>
-</kw>
-<kw name="Tap" library="AppiumLibrary">
-<arg>${MY_ACCOUNT_BTN_PREFERENCES}</arg>
-<doc>Tap element identified by ``locator``. </doc>
-<status status="PASS" starttime="20220706 15:20:28.134" endtime="20220706 15:20:29.131"/>
-</kw>
-<status status="PASS" starttime="20220706 15:20:26.131" endtime="20220706 15:20:29.132"/>
-</kw>
-<kw name="TC_Preferences_Privacy Policy" library="K_Preferences">
+<kw name="TC_Swipe_Valet" library="K_New_Valet_Mode">
 <kw name="Log To Console" library="BuiltIn">
-<arg>"*******************START_Privacy_Policy*********************"</arg>
+<arg>"*******************START_Swipe_Valets*********************"</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" starttime="20220706 15:20:29.132" endtime="20220706 15:20:29.133"/>
+<status status="PASS" starttime="20220711 16:59:47.542" endtime="20220711 16:59:47.543"/>
 </kw>
-<kw name="Tap" library="AppiumLibrary">
-<arg>${PRE_PRIVACY_POLICY}</arg>
-<doc>Tap element identified by ``locator``. </doc>
-<status status="PASS" starttime="20220706 15:20:29.133" endtime="20220706 15:20:30.763"/>
-</kw>
-<kw name="Sleep" library="BuiltIn">
-<arg>2</arg>
-<doc>Pauses the test executed for the given time.</doc>
-<msg timestamp="20220706 15:20:32.765" level="INFO">Slept 2 seconds</msg>
-<status status="PASS" starttime="20220706 15:20:30.764" endtime="20220706 15:20:32.765"/>
-</kw>
-<for flavor="IN RANGE">
-<var>${i}</var>
-<value>0</value>
-<value>10</value>
-<iter>
-<var name="${i}">0</var>
 <kw name="Swipe" library="AppiumLibrary">
 <arg>580</arg>
-<arg>1782</arg>
+<arg>1102</arg>
 <arg>518</arg>
 <arg>474</arg>
 <doc>Swipe from one point to another point, for an optional duration.</doc>
-<status status="PASS" starttime="20220706 15:20:32.766" endtime="20220706 15:20:33.844"/>
-</kw>
-<status status="PASS" starttime="20220706 15:20:32.766" endtime="20220706 15:20:33.844"/>
-</iter>
-<iter>
-<var name="${i}">1</var>
-<kw name="Swipe" library="AppiumLibrary">
-<arg>580</arg>
-<arg>1782</arg>
-<arg>518</arg>
-<arg>474</arg>
-<doc>Swipe from one point to another point, for an optional duration.</doc>
-<status status="PASS" starttime="20220706 15:20:33.845" endtime="20220706 15:20:34.835"/>
-</kw>
-<status status="PASS" starttime="20220706 15:20:33.844" endtime="20220706 15:20:34.835"/>
-</iter>
-<iter>
-<var name="${i}">2</var>
-<kw name="Swipe" library="AppiumLibrary">
-<arg>580</arg>
-<arg>1782</arg>
-<arg>518</arg>
-<arg>474</arg>
-<doc>Swipe from one point to another point, for an optional duration.</doc>
-<status status="PASS" starttime="20220706 15:20:34.835" endtime="20220706 15:20:35.831"/>
-</kw>
-<status status="PASS" starttime="20220706 15:20:34.835" endtime="20220706 15:20:35.831"/>
-</iter>
-<iter>
-<var name="${i}">3</var>
-<kw name="Swipe" library="AppiumLibrary">
-<arg>580</arg>
-<arg>1782</arg>
-<arg>518</arg>
-<arg>474</arg>
-<doc>Swipe from one point to another point, for an optional duration.</doc>
-<status status="PASS" starttime="20220706 15:20:35.832" endtime="20220706 15:20:36.811"/>
-</kw>
-<status status="PASS" starttime="20220706 15:20:35.831" endtime="20220706 15:20:36.811"/>
-</iter>
-<iter>
-<var name="${i}">4</var>
-<kw name="Swipe" library="AppiumLibrary">
-<arg>580</arg>
-<arg>1782</arg>
-<arg>518</arg>
-<arg>474</arg>
-<doc>Swipe from one point to another point, for an optional duration.</doc>
-<status status="PASS" starttime="20220706 15:20:36.811" endtime="20220706 15:20:37.803"/>
-</kw>
-<status status="PASS" starttime="20220706 15:20:36.811" endtime="20220706 15:20:37.803"/>
-</iter>
-<iter>
-<var name="${i}">5</var>
-<kw name="Swipe" library="AppiumLibrary">
-<arg>580</arg>
-<arg>1782</arg>
-<arg>518</arg>
-<arg>474</arg>
-<doc>Swipe from one point to another point, for an optional duration.</doc>
-<status status="PASS" starttime="20220706 15:20:37.804" endtime="20220706 15:20:38.788"/>
-</kw>
-<status status="PASS" starttime="20220706 15:20:37.803" endtime="20220706 15:20:38.788"/>
-</iter>
-<iter>
-<var name="${i}">6</var>
-<kw name="Swipe" library="AppiumLibrary">
-<arg>580</arg>
-<arg>1782</arg>
-<arg>518</arg>
-<arg>474</arg>
-<doc>Swipe from one point to another point, for an optional duration.</doc>
-<status status="PASS" starttime="20220706 15:20:38.788" endtime="20220706 15:20:39.790"/>
-</kw>
-<status status="PASS" starttime="20220706 15:20:38.788" endtime="20220706 15:20:39.790"/>
-</iter>
-<iter>
-<var name="${i}">7</var>
-<kw name="Swipe" library="AppiumLibrary">
-<arg>580</arg>
-<arg>1782</arg>
-<arg>518</arg>
-<arg>474</arg>
-<doc>Swipe from one point to another point, for an optional duration.</doc>
-<status status="PASS" starttime="20220706 15:20:39.791" endtime="20220706 15:20:40.769"/>
-</kw>
-<status status="PASS" starttime="20220706 15:20:39.791" endtime="20220706 15:20:40.769"/>
-</iter>
-<iter>
-<var name="${i}">8</var>
-<kw name="Swipe" library="AppiumLibrary">
-<arg>580</arg>
-<arg>1782</arg>
-<arg>518</arg>
-<arg>474</arg>
-<doc>Swipe from one point to another point, for an optional duration.</doc>
-<status status="PASS" starttime="20220706 15:20:40.770" endtime="20220706 15:20:41.747"/>
-</kw>
-<status status="PASS" starttime="20220706 15:20:40.769" endtime="20220706 15:20:41.747"/>
-</iter>
-<iter>
-<var name="${i}">9</var>
-<kw name="Swipe" library="AppiumLibrary">
-<arg>580</arg>
-<arg>1782</arg>
-<arg>518</arg>
-<arg>474</arg>
-<doc>Swipe from one point to another point, for an optional duration.</doc>
-<status status="PASS" starttime="20220706 15:20:41.748" endtime="20220706 15:20:42.744"/>
-</kw>
-<status status="PASS" starttime="20220706 15:20:41.748" endtime="20220706 15:20:42.744"/>
-</iter>
-<status status="PASS" starttime="20220706 15:20:32.765" endtime="20220706 15:20:42.744"/>
-</for>
-<for flavor="IN RANGE">
-<var>${i}</var>
-<value>0</value>
-<value>3</value>
-<iter>
-<var name="${i}">0</var>
-<kw name="Tap" library="AppiumLibrary">
-<arg>${PRE_PRIVACY_POLICY_CLOSE}</arg>
-<doc>Tap element identified by ``locator``. </doc>
-<status status="PASS" starttime="20220706 15:20:42.745" endtime="20220706 15:20:42.971"/>
-</kw>
-<status status="PASS" starttime="20220706 15:20:42.744" endtime="20220706 15:20:42.971"/>
-</iter>
-<iter>
-<var name="${i}">1</var>
-<kw name="Tap" library="AppiumLibrary">
-<arg>${PRE_PRIVACY_POLICY_CLOSE}</arg>
-<doc>Tap element identified by ``locator``. </doc>
-<status status="PASS" starttime="20220706 15:20:42.971" endtime="20220706 15:20:43.152"/>
-</kw>
-<status status="PASS" starttime="20220706 15:20:42.971" endtime="20220706 15:20:43.152"/>
-</iter>
-<iter>
-<var name="${i}">2</var>
-<kw name="Tap" library="AppiumLibrary">
-<arg>${PRE_PRIVACY_POLICY_CLOSE}</arg>
-<doc>Tap element identified by ``locator``. </doc>
-<status status="PASS" starttime="20220706 15:20:43.153" endtime="20220706 15:20:43.353"/>
-</kw>
-<status status="PASS" starttime="20220706 15:20:43.152" endtime="20220706 15:20:43.353"/>
-</iter>
-<status status="PASS" starttime="20220706 15:20:42.744" endtime="20220706 15:20:43.353"/>
-</for>
-<kw name="Sleep" library="BuiltIn">
-<arg>3</arg>
-<doc>Pauses the test executed for the given time.</doc>
-<msg timestamp="20220706 15:20:46.355" level="INFO">Slept 3 seconds</msg>
-<status status="PASS" starttime="20220706 15:20:43.353" endtime="20220706 15:20:46.355"/>
+<status status="PASS" starttime="20220711 16:59:47.543" endtime="20220711 16:59:48.638"/>
 </kw>
 <kw name="Log To Console" library="BuiltIn">
-<arg>"*******************END_Privacy_Policy*********************"</arg>
+<arg>"*******************END_Swipe_Valets*********************"</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" starttime="20220706 15:20:46.356" endtime="20220706 15:20:46.356"/>
+<status status="PASS" starttime="20220711 16:59:48.638" endtime="20220711 16:59:48.639"/>
 </kw>
-<status status="PASS" starttime="20220706 15:20:29.132" endtime="20220706 15:20:46.356"/>
+<status status="PASS" starttime="20220711 16:59:47.542" endtime="20220711 16:59:48.639"/>
 </kw>
-<kw name="TC_Preferences_Battery_Switches" library="K_Preferences">
+<kw name="TC_Activate_Valet_Mode_First_Time" library="K_New_Valet_Mode">
 <kw name="Log To Console" library="BuiltIn">
-<arg>"*******************START_Battery_Switches_Measurement*********************"</arg>
+<arg>"*******************START_Activate_Valet_Mode_First_Time*********************"</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" starttime="20220706 15:20:46.357" endtime="20220706 15:20:46.357"/>
+<status status="PASS" starttime="20220711 16:59:48.641" endtime="20220711 16:59:48.641"/>
 </kw>
 <kw name="Tap" library="AppiumLibrary">
-<arg>${PRE_SWITCH_WARNING_BAT}</arg>
+<arg>${DASH_SWITCH_VALET_MODE}</arg>
 <doc>Tap element identified by ``locator``. </doc>
-<status status="PASS" starttime="20220706 15:20:46.358" endtime="20220706 15:20:46.618"/>
+<status status="PASS" starttime="20220711 16:59:48.642" endtime="20220711 16:59:49.093"/>
+</kw>
+<kw name="Element Should Contain Text" library="AppiumLibrary">
+<arg>${dash_valet_popup}</arg>
+<arg>You don´t have a custom valet mode set for vehicle selected. Would you like to select a range of values for your custom valet mode</arg>
+<doc>Verifies element identified by ``locator`` contains text ``expected``.</doc>
+<msg timestamp="20220711 16:59:49.101" level="INFO">Verifying element '//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]' contains text 'You don´t have a custom valet mode set for vehicle selected. Would you like to select a range of values for your custom valet mode'.</msg>
+<kw name="Capture Page Screenshot" library="AppiumLibrary">
+<doc>Takes a screenshot of the current page and embeds it into the log.</doc>
+<msg timestamp="20220711 16:59:49.763" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="appium-screenshot-1.png"&gt;&lt;img src="appium-screenshot-1.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20220711 16:59:49.203" endtime="20220711 16:59:49.763"/>
+</kw>
+<msg timestamp="20220711 16:59:49.764" level="FAIL">ValueError: Element locator '//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]' did not match any elements.</msg>
+<status status="FAIL" starttime="20220711 16:59:49.094" endtime="20220711 16:59:49.767"/>
+</kw>
+<kw name="Tap" library="AppiumLibrary">
+<arg>${dash_valet_btn_yes_valet}</arg>
+<doc>Tap element identified by ``locator``. </doc>
+<status status="NOT RUN" starttime="20220711 16:59:49.768" endtime="20220711 16:59:49.768"/>
 </kw>
 <kw name="Sleep" library="BuiltIn">
-<arg>1</arg>
-<doc>Pauses the test executed for the given time.</doc>
-<msg timestamp="20220706 15:20:47.620" level="INFO">Slept 1 second</msg>
-<status status="PASS" starttime="20220706 15:20:46.618" endtime="20220706 15:20:47.620"/>
-</kw>
-<kw name="Tap" library="AppiumLibrary">
-<arg>${PRE_SWITCH_PLUG_UNPLU_BAT}</arg>
-<doc>Tap element identified by ``locator``. </doc>
-<status status="PASS" starttime="20220706 15:20:47.621" endtime="20220706 15:20:48.840"/>
-</kw>
-<kw name="Sleep" library="BuiltIn">
-<arg>1</arg>
-<doc>Pauses the test executed for the given time.</doc>
-<msg timestamp="20220706 15:20:49.843" level="INFO">Slept 1 second</msg>
-<status status="PASS" starttime="20220706 15:20:48.841" endtime="20220706 15:20:49.843"/>
-</kw>
-<kw name="Tap" library="AppiumLibrary">
-<arg>${PRE_KM}</arg>
-<doc>Tap element identified by ``locator``. </doc>
-<status status="PASS" starttime="20220706 15:20:49.844" endtime="20220706 15:20:50.553"/>
-</kw>
-<kw name="Go Back" library="AppiumLibrary">
-<doc>Goes one step backward in the browser history.</doc>
-<status status="PASS" starttime="20220706 15:20:50.554" endtime="20220706 15:20:50.635"/>
-</kw>
-<kw name="Tap" library="AppiumLibrary">
-<arg>${dash_icon_profile}</arg>
-<doc>Tap element identified by ``locator``. </doc>
-<status status="PASS" starttime="20220706 15:20:50.636" endtime="20220706 15:20:51.674"/>
-</kw>
-<kw name="Accept_User_Data" library="K_Profile">
-<kw name="Tap" library="AppiumLibrary">
-<arg>${pro_user_data_security}</arg>
-<doc>Tap element identified by ``locator``. </doc>
-<status status="PASS" starttime="20220706 15:20:51.675" endtime="20220706 15:20:53.206"/>
-</kw>
-<kw name="Sleep" library="BuiltIn">
-<arg>3</arg>
-<doc>Pauses the test executed for the given time.</doc>
-<msg timestamp="20220706 15:20:56.209" level="INFO">Slept 3 seconds</msg>
-<status status="PASS" starttime="20220706 15:20:53.207" endtime="20220706 15:20:56.209"/>
-</kw>
-<status status="PASS" starttime="20220706 15:20:51.674" endtime="20220706 15:20:56.209"/>
-</kw>
-<kw name="TC_Enter_Preferences" library="K_Preferences">
-<kw name="Sleep" library="BuiltIn">
-<arg>2</arg>
-<doc>Pauses the test executed for the given time.</doc>
-<msg timestamp="20220706 15:20:58.211" level="INFO">Slept 2 seconds</msg>
-<status status="PASS" starttime="20220706 15:20:56.211" endtime="20220706 15:20:58.211"/>
-</kw>
-<kw name="Tap" library="AppiumLibrary">
-<arg>${MY_ACCOUNT_BTN_PREFERENCES}</arg>
-<doc>Tap element identified by ``locator``. </doc>
-<status status="PASS" starttime="20220706 15:20:58.212" endtime="20220706 15:20:59.746"/>
-</kw>
-<status status="PASS" starttime="20220706 15:20:56.210" endtime="20220706 15:20:59.746"/>
-</kw>
-<kw name="Tap" library="AppiumLibrary">
-<arg>${PRE_SWITCH_LOW_BAT}</arg>
-<doc>Tap element identified by ``locator``. </doc>
-<status status="PASS" starttime="20220706 15:20:59.747" endtime="20220706 15:21:00.488"/>
-</kw>
-<kw name="Sleep" library="BuiltIn">
-<arg>1</arg>
-<doc>Pauses the test executed for the given time.</doc>
-<msg timestamp="20220706 15:21:01.491" level="INFO">Slept 1 second</msg>
-<status status="PASS" starttime="20220706 15:21:00.489" endtime="20220706 15:21:01.491"/>
-</kw>
-<kw name="Tap" library="AppiumLibrary">
-<arg>${PRE_SWITCH_PLUG_UNPLU_BAT}</arg>
-<doc>Tap element identified by ``locator``. </doc>
-<status status="PASS" starttime="20220706 15:21:01.492" endtime="20220706 15:21:01.720"/>
-</kw>
-<kw name="Sleep" library="BuiltIn">
-<arg>1</arg>
-<doc>Pauses the test executed for the given time.</doc>
-<msg timestamp="20220706 15:21:02.724" level="INFO">Slept 1 second</msg>
-<status status="PASS" starttime="20220706 15:21:01.720" endtime="20220706 15:21:02.724"/>
-</kw>
-<kw name="Tap" library="AppiumLibrary">
-<arg>${PRE_MILES}</arg>
-<doc>Tap element identified by ``locator``. </doc>
-<status status="PASS" starttime="20220706 15:21:02.725" endtime="20220706 15:21:02.965"/>
-</kw>
-<kw name="Go Back" library="AppiumLibrary">
-<doc>Goes one step backward in the browser history.</doc>
-<status status="PASS" starttime="20220706 15:21:02.965" endtime="20220706 15:21:03.525"/>
-</kw>
-<kw name="Tap" library="AppiumLibrary">
-<arg>${dash_icon_profile}</arg>
-<doc>Tap element identified by ``locator``. </doc>
-<status status="PASS" starttime="20220706 15:21:03.525" endtime="20220706 15:21:04.571"/>
-</kw>
-<kw name="Accept_User_Data" library="K_Profile">
-<kw name="Tap" library="AppiumLibrary">
-<arg>${pro_user_data_security}</arg>
-<doc>Tap element identified by ``locator``. </doc>
-<status status="PASS" starttime="20220706 15:21:04.572" endtime="20220706 15:21:06.122"/>
-</kw>
-<kw name="Sleep" library="BuiltIn">
-<arg>3</arg>
-<doc>Pauses the test executed for the given time.</doc>
-<msg timestamp="20220706 15:21:09.124" level="INFO">Slept 3 seconds</msg>
-<status status="PASS" starttime="20220706 15:21:06.122" endtime="20220706 15:21:09.124"/>
-</kw>
-<status status="PASS" starttime="20220706 15:21:04.571" endtime="20220706 15:21:09.124"/>
-</kw>
-<kw name="TC_Enter_Preferences" library="K_Preferences">
-<kw name="Sleep" library="BuiltIn">
-<arg>2</arg>
-<doc>Pauses the test executed for the given time.</doc>
-<msg timestamp="20220706 15:21:11.127" level="INFO">Slept 2 seconds</msg>
-<status status="PASS" starttime="20220706 15:21:09.125" endtime="20220706 15:21:11.128"/>
-</kw>
-<kw name="Tap" library="AppiumLibrary">
-<arg>${MY_ACCOUNT_BTN_PREFERENCES}</arg>
-<doc>Tap element identified by ``locator``. </doc>
-<status status="PASS" starttime="20220706 15:21:11.128" endtime="20220706 15:21:12.233"/>
-</kw>
-<status status="PASS" starttime="20220706 15:21:09.125" endtime="20220706 15:21:12.233"/>
-</kw>
-<kw name="Tap" library="AppiumLibrary">
-<arg>${PRE_SWITCH_LOW_BAT}</arg>
-<doc>Tap element identified by ``locator``. </doc>
-<status status="PASS" starttime="20220706 15:21:12.234" endtime="20220706 15:21:12.989"/>
-</kw>
-<kw name="Sleep" library="BuiltIn">
-<arg>1</arg>
-<doc>Pauses the test executed for the given time.</doc>
-<msg timestamp="20220706 15:21:13.991" level="INFO">Slept 1 second</msg>
-<status status="PASS" starttime="20220706 15:21:12.989" endtime="20220706 15:21:13.991"/>
-</kw>
-<kw name="Tap" library="AppiumLibrary">
-<arg>${PRE_SWITCH_PLUG_UNPLU_BAT}</arg>
-<doc>Tap element identified by ``locator``. </doc>
-<status status="PASS" starttime="20220706 15:21:13.992" endtime="20220706 15:21:14.784"/>
-</kw>
-<kw name="Sleep" library="BuiltIn">
-<arg>1</arg>
-<doc>Pauses the test executed for the given time.</doc>
-<msg timestamp="20220706 15:21:15.787" level="INFO">Slept 1 second</msg>
-<status status="PASS" starttime="20220706 15:21:14.785" endtime="20220706 15:21:15.788"/>
-</kw>
-<kw name="Log To Console" library="BuiltIn">
-<arg>"*******************END_Battery_Switches_Measurement*********************"</arg>
-<doc>Logs the given message to the console.</doc>
-<status status="PASS" starttime="20220706 15:21:15.789" endtime="20220706 15:21:15.790"/>
-</kw>
-<status status="PASS" starttime="20220706 15:20:46.357" endtime="20220706 15:21:15.791"/>
-</kw>
-<kw name="TC_Preferences_Enter_to_Change_Password" library="K_Preferences">
-<kw name="Log To Console" library="BuiltIn">
-<arg>"*******************START_Enter_to_Change_Password********************"</arg>
-<doc>Logs the given message to the console.</doc>
-<status status="PASS" starttime="20220706 15:21:15.794" endtime="20220706 15:21:15.796"/>
-</kw>
-<kw name="Sleep" library="BuiltIn">
-<arg>2</arg>
-<doc>Pauses the test executed for the given time.</doc>
-<msg timestamp="20220706 15:21:17.800" level="INFO">Slept 2 seconds</msg>
-<status status="PASS" starttime="20220706 15:21:15.797" endtime="20220706 15:21:17.800"/>
-</kw>
-<kw name="Tap" library="AppiumLibrary">
-<arg>${MY_ACCOUNT_BTN_PREFERENCES}</arg>
-<doc>Tap element identified by ``locator``. </doc>
-<status status="PASS" starttime="20220706 15:21:17.801" endtime="20220706 15:21:18.563"/>
-</kw>
-<kw name="Sleep" library="BuiltIn">
-<arg>1</arg>
-<doc>Pauses the test executed for the given time.</doc>
-<msg timestamp="20220706 15:21:19.565" level="INFO">Slept 1 second</msg>
-<status status="PASS" starttime="20220706 15:21:18.564" endtime="20220706 15:21:19.565"/>
-</kw>
-<kw name="Tap" library="AppiumLibrary">
-<arg>${PRE_BTN_CHANGE_PASS}</arg>
-<doc>Tap element identified by ``locator``. </doc>
-<status status="PASS" starttime="20220706 15:21:19.566" endtime="20220706 15:21:20.678"/>
-</kw>
-<kw name="Sleep" library="BuiltIn">
-<arg>3</arg>
-<doc>Pauses the test executed for the given time.</doc>
-<msg timestamp="20220706 15:21:23.679" level="INFO">Slept 3 seconds</msg>
-<status status="PASS" starttime="20220706 15:21:20.678" endtime="20220706 15:21:23.680"/>
-</kw>
-<kw name="Tap" library="AppiumLibrary">
-<arg>${PRE_BTN_CHANGE_PASS_CURRENT_PASS}</arg>
-<doc>Tap element identified by ``locator``. </doc>
-<status status="PASS" starttime="20220706 15:21:23.680" endtime="20220706 15:21:24.424"/>
-</kw>
-<kw name="Sleep" library="BuiltIn">
-<arg>1</arg>
-<doc>Pauses the test executed for the given time.</doc>
-<msg timestamp="20220706 15:21:25.425" level="INFO">Slept 1 second</msg>
-<status status="PASS" starttime="20220706 15:21:24.425" endtime="20220706 15:21:25.426"/>
-</kw>
-<kw name="Tap" library="AppiumLibrary">
-<arg>${PRE_BTN_CHANGE_PASS_BTN_CONTINUE}</arg>
-<doc>Tap element identified by ``locator``. </doc>
-<status status="PASS" starttime="20220706 15:21:25.426" endtime="20220706 15:21:25.694"/>
-</kw>
-<kw name="Log To Console" library="BuiltIn">
-<arg>"*******************END_Enter_to_Change_Password********************"</arg>
-<doc>Logs the given message to the console.</doc>
-<status status="PASS" starttime="20220706 15:21:25.694" endtime="20220706 15:21:25.695"/>
-</kw>
-<status status="PASS" starttime="20220706 15:21:15.792" endtime="20220706 15:21:25.695"/>
-</kw>
-<kw name="TC_Preferences_Change_Pass_White_Blank" library="K_Preferences">
-<kw name="Log To Console" library="BuiltIn">
-<arg>"*******************START_White_Blank*********************"</arg>
-<doc>Logs the given message to the console.</doc>
-<status status="PASS" starttime="20220706 15:21:25.696" endtime="20220706 15:21:25.696"/>
-</kw>
-<kw name="Tap" library="AppiumLibrary">
-<arg>${PRE_BTN_CHANGE_PASS_CURRENT_BTN_CONTINUE}</arg>
-<doc>Tap element identified by ``locator``. </doc>
-<status status="PASS" starttime="20220706 15:21:25.696" endtime="20220706 15:21:27.277"/>
-</kw>
-<kw name="Wait Until Page Contains Element" library="AppiumLibrary">
-<arg>${pre_btn_change_pass_current_not_blank}</arg>
-<doc>Waits until element specified with `locator` appears on current page.</doc>
-<status status="PASS" starttime="20220706 15:21:27.278" endtime="20220706 15:21:27.348"/>
-</kw>
-<kw name="Log To Console" library="BuiltIn">
-<arg>"*******************END_White_Blank*********************"</arg>
-<doc>Logs the given message to the console.</doc>
-<status status="PASS" starttime="20220706 15:21:27.349" endtime="20220706 15:21:27.349"/>
-</kw>
-<status status="PASS" starttime="20220706 15:21:25.695" endtime="20220706 15:21:27.349"/>
-</kw>
-<kw name="TC_Preferences_Change_Pass_Same_Pass" library="K_Preferences">
-<kw name="Log To Console" library="BuiltIn">
-<arg>"*******************START_Same_Pass*********************"</arg>
-<doc>Logs the given message to the console.</doc>
-<status status="PASS" starttime="20220706 15:21:27.350" endtime="20220706 15:21:27.351"/>
-</kw>
-<kw name="Sleep" library="BuiltIn">
-<arg>3</arg>
-<doc>Pauses the test executed for the given time.</doc>
-<msg timestamp="20220706 15:21:30.353" level="INFO">Slept 3 seconds</msg>
-<status status="PASS" starttime="20220706 15:21:27.351" endtime="20220706 15:21:30.353"/>
-</kw>
-<kw name="Click Element" library="AppiumLibrary">
-<arg>${PRE_BTN_CHANGE_PASS_CURRENT_OLD_PASS}</arg>
-<doc>Click element identified by `locator`.</doc>
-<msg timestamp="20220706 15:21:30.358" level="INFO">Clicking element '//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[2]/android.widget.EditText[1]'.</msg>
-<status status="PASS" starttime="20220706 15:21:30.353" endtime="20220706 15:21:32.212"/>
-</kw>
-<kw name="Press Keycode" library="AppiumLibrary">
-<arg>-1</arg>
-<arg>37</arg>
-<doc>Sends a press of keycode to the device.</doc>
-<status status="PASS" starttime="20220706 15:21:32.212" endtime="20220706 15:21:33.252"/>
-</kw>
-<kw name="Press Keycode" library="AppiumLibrary">
-<arg>37</arg>
-<doc>Sends a press of keycode to the device.</doc>
-<status status="PASS" starttime="20220706 15:21:33.253" endtime="20220706 15:21:33.302"/>
-</kw>
-<kw name="Press Keycode" library="AppiumLibrary">
-<arg>39</arg>
-<doc>Sends a press of keycode to the device.</doc>
-<status status="PASS" starttime="20220706 15:21:33.302" endtime="20220706 15:21:33.834"/>
-</kw>
-<kw name="Press Keycode" library="AppiumLibrary">
-<arg>43</arg>
-<doc>Sends a press of keycode to the device.</doc>
-<status status="PASS" starttime="20220706 15:21:33.834" endtime="20220706 15:21:34.400"/>
-</kw>
-<kw name="Press Keycode" library="AppiumLibrary">
-<arg>42</arg>
-<doc>Sends a press of keycode to the device.</doc>
-<status status="PASS" starttime="20220706 15:21:34.401" endtime="20220706 15:21:36.057"/>
-</kw>
-<kw name="Press Keycode" library="AppiumLibrary">
-<arg>8</arg>
-<doc>Sends a press of keycode to the device.</doc>
-<status status="PASS" starttime="20220706 15:21:36.058" endtime="20220706 15:21:36.585"/>
-</kw>
-<kw name="Press Keycode" library="AppiumLibrary">
-<arg>9</arg>
-<doc>Sends a press of keycode to the device.</doc>
-<status status="PASS" starttime="20220706 15:21:36.586" endtime="20220706 15:21:37.115"/>
-</kw>
-<kw name="Press Keycode" library="AppiumLibrary">
 <arg>10</arg>
-<doc>Sends a press of keycode to the device.</doc>
-<status status="PASS" starttime="20220706 15:21:37.115" endtime="20220706 15:21:37.646"/>
-</kw>
-<kw name="Press Keycode" library="AppiumLibrary">
-<arg>11</arg>
-<doc>Sends a press of keycode to the device.</doc>
-<status status="PASS" starttime="20220706 15:21:37.647" endtime="20220706 15:21:39.688"/>
-</kw>
-<kw name="Sleep" library="BuiltIn">
-<arg>3</arg>
 <doc>Pauses the test executed for the given time.</doc>
-<msg timestamp="20220706 15:21:42.691" level="INFO">Slept 3 seconds</msg>
-<status status="PASS" starttime="20220706 15:21:39.689" endtime="20220706 15:21:42.691"/>
-</kw>
-<kw name="Click Element At Coordinates" library="AppiumLibrary">
-<arg>55</arg>
-<arg>237</arg>
-<doc>click element at a certain coordinate</doc>
-<msg timestamp="20220706 15:21:42.701" level="INFO">Pressing at (55, 237).</msg>
-<status status="PASS" starttime="20220706 15:21:42.692" endtime="20220706 15:21:43.492"/>
-</kw>
-<kw name="Click Element" library="AppiumLibrary">
-<arg>${PRE_BTN_CHANGE_PASS_CURRENT_NEW_PASS}</arg>
-<doc>Click element identified by `locator`.</doc>
-<msg timestamp="20220706 15:21:43.502" level="INFO">Clicking element '//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[2]/android.widget.EditText[2]'.</msg>
-<status status="PASS" starttime="20220706 15:21:43.493" endtime="20220706 15:21:43.618"/>
-</kw>
-<kw name="Press Keycode" library="AppiumLibrary">
-<arg>-1</arg>
-<doc>Sends a press of keycode to the device.</doc>
-<status status="PASS" starttime="20220706 15:21:43.618" endtime="20220706 15:21:44.581"/>
-</kw>
-<kw name="Press Keycode" library="AppiumLibrary">
-<arg>37</arg>
-<doc>Sends a press of keycode to the device.</doc>
-<status status="PASS" starttime="20220706 15:21:44.582" endtime="20220706 15:21:44.646"/>
-</kw>
-<kw name="Press Keycode" library="AppiumLibrary">
-<arg>39</arg>
-<doc>Sends a press of keycode to the device.</doc>
-<status status="PASS" starttime="20220706 15:21:44.647" endtime="20220706 15:21:45.206"/>
-</kw>
-<kw name="Press Keycode" library="AppiumLibrary">
-<arg>43</arg>
-<doc>Sends a press of keycode to the device.</doc>
-<status status="PASS" starttime="20220706 15:21:45.207" endtime="20220706 15:21:45.721"/>
-</kw>
-<kw name="Press Keycode" library="AppiumLibrary">
-<arg>42</arg>
-<doc>Sends a press of keycode to the device.</doc>
-<status status="PASS" starttime="20220706 15:21:45.721" endtime="20220706 15:21:46.252"/>
-</kw>
-<kw name="Press Keycode" library="AppiumLibrary">
-<arg>8</arg>
-<doc>Sends a press of keycode to the device.</doc>
-<status status="PASS" starttime="20220706 15:21:46.253" endtime="20220706 15:21:46.769"/>
-</kw>
-<kw name="Press Keycode" library="AppiumLibrary">
-<arg>9</arg>
-<doc>Sends a press of keycode to the device.</doc>
-<status status="PASS" starttime="20220706 15:21:46.770" endtime="20220706 15:21:47.314"/>
-</kw>
-<kw name="Press Keycode" library="AppiumLibrary">
-<arg>10</arg>
-<doc>Sends a press of keycode to the device.</doc>
-<status status="PASS" starttime="20220706 15:21:47.314" endtime="20220706 15:21:47.868"/>
-</kw>
-<kw name="Press Keycode" library="AppiumLibrary">
-<arg>11</arg>
-<doc>Sends a press of keycode to the device.</doc>
-<status status="PASS" starttime="20220706 15:21:47.869" endtime="20220706 15:21:48.392"/>
-</kw>
-<kw name="Sleep" library="BuiltIn">
-<arg>1</arg>
-<doc>Pauses the test executed for the given time.</doc>
-<msg timestamp="20220706 15:21:49.394" level="INFO">Slept 1 second</msg>
-<status status="PASS" starttime="20220706 15:21:48.393" endtime="20220706 15:21:49.395"/>
-</kw>
-<kw name="Click Element At Coordinates" library="AppiumLibrary">
-<arg>55</arg>
-<arg>237</arg>
-<doc>click element at a certain coordinate</doc>
-<msg timestamp="20220706 15:21:49.404" level="INFO">Pressing at (55, 237).</msg>
-<status status="PASS" starttime="20220706 15:21:49.395" endtime="20220706 15:21:50.230"/>
-</kw>
-<kw name="Click Element" library="AppiumLibrary">
-<arg>${PRE_BTN_CHANGE_PASS_CURRENT_CONFIRM_PASS}</arg>
-<doc>Click element identified by `locator`.</doc>
-<msg timestamp="20220706 15:21:50.238" level="INFO">Clicking element '//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[2]/android.widget.EditText[3]'.</msg>
-<status status="PASS" starttime="20220706 15:21:50.230" endtime="20220706 15:21:50.351"/>
-</kw>
-<kw name="Sleep" library="BuiltIn">
-<arg>2</arg>
-<doc>Pauses the test executed for the given time.</doc>
-<msg timestamp="20220706 15:21:52.354" level="INFO">Slept 2 seconds</msg>
-<status status="PASS" starttime="20220706 15:21:50.351" endtime="20220706 15:21:52.354"/>
-</kw>
-<kw name="Press Keycode" library="AppiumLibrary">
-<arg>-1</arg>
-<doc>Sends a press of keycode to the device.</doc>
-<status status="PASS" starttime="20220706 15:21:52.355" endtime="20220706 15:21:52.440"/>
-</kw>
-<kw name="Press Keycode" library="AppiumLibrary">
-<arg>37</arg>
-<doc>Sends a press of keycode to the device.</doc>
-<status status="PASS" starttime="20220706 15:21:52.440" endtime="20220706 15:21:52.506"/>
-</kw>
-<kw name="Press Keycode" library="AppiumLibrary">
-<arg>39</arg>
-<doc>Sends a press of keycode to the device.</doc>
-<status status="PASS" starttime="20220706 15:21:52.507" endtime="20220706 15:21:53.033"/>
-</kw>
-<kw name="Press Keycode" library="AppiumLibrary">
-<arg>43</arg>
-<doc>Sends a press of keycode to the device.</doc>
-<status status="PASS" starttime="20220706 15:21:53.033" endtime="20220706 15:21:53.565"/>
-</kw>
-<kw name="Press Keycode" library="AppiumLibrary">
-<arg>42</arg>
-<doc>Sends a press of keycode to the device.</doc>
-<status status="PASS" starttime="20220706 15:21:53.565" endtime="20220706 15:21:54.115"/>
-</kw>
-<kw name="Press Keycode" library="AppiumLibrary">
-<arg>8</arg>
-<doc>Sends a press of keycode to the device.</doc>
-<status status="PASS" starttime="20220706 15:21:54.116" endtime="20220706 15:21:54.663"/>
-</kw>
-<kw name="Press Keycode" library="AppiumLibrary">
-<arg>9</arg>
-<doc>Sends a press of keycode to the device.</doc>
-<status status="PASS" starttime="20220706 15:21:54.664" endtime="20220706 15:21:55.211"/>
-</kw>
-<kw name="Press Keycode" library="AppiumLibrary">
-<arg>10</arg>
-<doc>Sends a press of keycode to the device.</doc>
-<status status="PASS" starttime="20220706 15:21:55.212" endtime="20220706 15:21:55.737"/>
-</kw>
-<kw name="Press Keycode" library="AppiumLibrary">
-<arg>11</arg>
-<doc>Sends a press of keycode to the device.</doc>
-<status status="PASS" starttime="20220706 15:21:55.738" endtime="20220706 15:21:56.284"/>
-</kw>
-<kw name="Sleep" library="BuiltIn">
-<arg>2</arg>
-<doc>Pauses the test executed for the given time.</doc>
-<msg timestamp="20220706 15:21:58.287" level="INFO">Slept 2 seconds</msg>
-<status status="PASS" starttime="20220706 15:21:56.284" endtime="20220706 15:21:58.287"/>
-</kw>
-<kw name="Click Element At Coordinates" library="AppiumLibrary">
-<arg>55</arg>
-<arg>237</arg>
-<doc>click element at a certain coordinate</doc>
-<msg timestamp="20220706 15:21:58.295" level="INFO">Pressing at (55, 237).</msg>
-<status status="PASS" starttime="20220706 15:21:58.288" endtime="20220706 15:21:58.465"/>
+<status status="NOT RUN" starttime="20220711 16:59:49.768" endtime="20220711 16:59:49.768"/>
 </kw>
 <kw name="Tap" library="AppiumLibrary">
-<arg>${PRE_BTN_CHANGE_PASS_BTN_CONTINUE}</arg>
+<arg>${DASH_SWITCH_VALET_MODE}</arg>
 <doc>Tap element identified by ``locator``. </doc>
-<status status="PASS" starttime="20220706 15:21:58.466" endtime="20220706 15:22:01.774"/>
+<status status="NOT RUN" starttime="20220711 16:59:49.768" endtime="20220711 16:59:49.768"/>
 </kw>
-<kw name="Wait Until Page Contains Element" library="AppiumLibrary">
-<arg>${l_message_error}</arg>
-<doc>Waits until element specified with `locator` appears on current page.</doc>
-<status status="PASS" starttime="20220706 15:22:01.775" endtime="20220706 15:22:03.443"/>
+<kw name="Sleep" library="BuiltIn">
+<arg>5</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20220711 16:59:49.768" endtime="20220711 16:59:49.768"/>
 </kw>
 <kw name="Log To Console" library="BuiltIn">
-<arg>"*******************END_Same_Pass*********************"</arg>
+<arg>"*******************END_Activate_Valet_Mode_First_Time*********************"</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" starttime="20220706 15:22:03.443" endtime="20220706 15:22:03.444"/>
+<status status="NOT RUN" starttime="20220711 16:59:49.768" endtime="20220711 16:59:49.768"/>
 </kw>
-<status status="PASS" starttime="20220706 15:21:27.350" endtime="20220706 15:22:03.444"/>
+<status status="FAIL" starttime="20220711 16:59:48.640" endtime="20220711 16:59:49.769"/>
 </kw>
-<kw name="TC_Preferences_Change_CurrentPass_Different" library="K_Preferences">
-<kw name="Log To Console" library="BuiltIn">
-<arg>"*******************START_Current_Pass_Different*********************"</arg>
-<doc>Logs the given message to the console.</doc>
-<status status="PASS" starttime="20220706 15:22:03.445" endtime="20220706 15:22:03.445"/>
+<kw name="TC_Activate_Valet_Mode" library="K_New_Valet_Mode">
+<status status="NOT RUN" starttime="20220711 16:59:49.769" endtime="20220711 16:59:49.769"/>
 </kw>
-<kw name="Sleep" library="BuiltIn">
-<arg>4</arg>
-<doc>Pauses the test executed for the given time.</doc>
-<msg timestamp="20220706 15:22:07.447" level="INFO">Slept 4 seconds</msg>
-<status status="PASS" starttime="20220706 15:22:03.446" endtime="20220706 15:22:07.447"/>
-</kw>
-<kw name="Click Element" library="AppiumLibrary">
-<arg>${PRE_BTN_CHANGE_PASS_CURRENT_OLD_PASS}</arg>
-<doc>Click element identified by `locator`.</doc>
-<msg timestamp="20220706 15:22:07.457" level="INFO">Clicking element '//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[2]/android.widget.EditText[1]'.</msg>
-<status status="PASS" starttime="20220706 15:22:07.448" endtime="20220706 15:22:07.627"/>
-</kw>
-<for flavor="IN RANGE">
-<var>${i}</var>
-<value>0</value>
-<value>9</value>
-<iter>
-<var name="${i}">0</var>
-<kw name="Press Keycode" library="AppiumLibrary">
-<arg>67</arg>
-<doc>Sends a press of keycode to the device.</doc>
-<status status="PASS" starttime="20220706 15:22:07.629" endtime="20220706 15:22:08.587"/>
-</kw>
-<status status="PASS" starttime="20220706 15:22:07.628" endtime="20220706 15:22:08.587"/>
-</iter>
-<iter>
-<var name="${i}">1</var>
-<kw name="Press Keycode" library="AppiumLibrary">
-<arg>67</arg>
-<doc>Sends a press of keycode to the device.</doc>
-<status status="PASS" starttime="20220706 15:22:08.588" endtime="20220706 15:22:09.354"/>
-</kw>
-<status status="PASS" starttime="20220706 15:22:08.588" endtime="20220706 15:22:09.354"/>
-</iter>
-<iter>
-<var name="${i}">2</var>
-<kw name="Press Keycode" library="AppiumLibrary">
-<arg>67</arg>
-<doc>Sends a press of keycode to the device.</doc>
-<status status="PASS" starttime="20220706 15:22:09.355" endtime="20220706 15:22:10.934"/>
-</kw>
-<status status="PASS" starttime="20220706 15:22:09.354" endtime="20220706 15:22:10.934"/>
-</iter>
-<iter>
-<var name="${i}">3</var>
-<kw name="Press Keycode" library="AppiumLibrary">
-<arg>67</arg>
-<doc>Sends a press of keycode to the device.</doc>
-<status status="PASS" starttime="20220706 15:22:10.935" endtime="20220706 15:22:11.471"/>
-</kw>
-<status status="PASS" starttime="20220706 15:22:10.934" endtime="20220706 15:22:11.471"/>
-</iter>
-<iter>
-<var name="${i}">4</var>
-<kw name="Press Keycode" library="AppiumLibrary">
-<arg>67</arg>
-<doc>Sends a press of keycode to the device.</doc>
-<status status="PASS" starttime="20220706 15:22:11.472" endtime="20220706 15:22:12.002"/>
-</kw>
-<status status="PASS" starttime="20220706 15:22:11.471" endtime="20220706 15:22:12.002"/>
-</iter>
-<iter>
-<var name="${i}">5</var>
-<kw name="Press Keycode" library="AppiumLibrary">
-<arg>67</arg>
-<doc>Sends a press of keycode to the device.</doc>
-<status status="PASS" starttime="20220706 15:22:12.003" endtime="20220706 15:22:12.535"/>
-</kw>
-<status status="PASS" starttime="20220706 15:22:12.003" endtime="20220706 15:22:12.535"/>
-</iter>
-<iter>
-<var name="${i}">6</var>
-<kw name="Press Keycode" library="AppiumLibrary">
-<arg>67</arg>
-<doc>Sends a press of keycode to the device.</doc>
-<status status="PASS" starttime="20220706 15:22:12.536" endtime="20220706 15:22:13.080"/>
-</kw>
-<status status="PASS" starttime="20220706 15:22:12.535" endtime="20220706 15:22:13.080"/>
-</iter>
-<iter>
-<var name="${i}">7</var>
-<kw name="Press Keycode" library="AppiumLibrary">
-<arg>67</arg>
-<doc>Sends a press of keycode to the device.</doc>
-<status status="PASS" starttime="20220706 15:22:13.081" endtime="20220706 15:22:13.627"/>
-</kw>
-<status status="PASS" starttime="20220706 15:22:13.080" endtime="20220706 15:22:13.627"/>
-</iter>
-<iter>
-<var name="${i}">8</var>
-<kw name="Press Keycode" library="AppiumLibrary">
-<arg>67</arg>
-<doc>Sends a press of keycode to the device.</doc>
-<status status="PASS" starttime="20220706 15:22:13.628" endtime="20220706 15:22:14.161"/>
-</kw>
-<status status="PASS" starttime="20220706 15:22:13.628" endtime="20220706 15:22:14.162"/>
-</iter>
-<status status="PASS" starttime="20220706 15:22:07.627" endtime="20220706 15:22:14.162"/>
-</for>
-<kw name="Press Keycode" library="AppiumLibrary">
-<arg>-1</arg>
-<arg>37</arg>
-<doc>Sends a press of keycode to the device.</doc>
-<status status="PASS" starttime="20220706 15:22:14.162" endtime="20220706 15:22:14.226"/>
-</kw>
-<kw name="Press Keycode" library="AppiumLibrary">
-<arg>37</arg>
-<doc>Sends a press of keycode to the device.</doc>
-<status status="PASS" starttime="20220706 15:22:14.227" endtime="20220706 15:22:14.291"/>
-</kw>
-<kw name="Press Keycode" library="AppiumLibrary">
-<arg>39</arg>
-<doc>Sends a press of keycode to the device.</doc>
-<status status="PASS" starttime="20220706 15:22:14.291" endtime="20220706 15:22:14.844"/>
-</kw>
-<kw name="Press Keycode" library="AppiumLibrary">
-<arg>43</arg>
-<doc>Sends a press of keycode to the device.</doc>
-<status status="PASS" starttime="20220706 15:22:14.845" endtime="20220706 15:22:15.388"/>
-</kw>
-<kw name="Press Keycode" library="AppiumLibrary">
-<arg>42</arg>
-<doc>Sends a press of keycode to the device.</doc>
-<status status="PASS" starttime="20220706 15:22:15.388" endtime="20220706 15:22:15.902"/>
-</kw>
-<kw name="Press Keycode" library="AppiumLibrary">
-<arg>8</arg>
-<doc>Sends a press of keycode to the device.</doc>
-<status status="PASS" starttime="20220706 15:22:15.903" endtime="20220706 15:22:16.466"/>
-</kw>
-<kw name="Press Keycode" library="AppiumLibrary">
-<arg>9</arg>
-<doc>Sends a press of keycode to the device.</doc>
-<status status="PASS" starttime="20220706 15:22:16.466" endtime="20220706 15:22:17.024"/>
-</kw>
-<kw name="Press Keycode" library="AppiumLibrary">
-<arg>10</arg>
-<doc>Sends a press of keycode to the device.</doc>
-<status status="PASS" starttime="20220706 15:22:17.025" endtime="20220706 15:22:17.556"/>
-</kw>
-<kw name="Press Keycode" library="AppiumLibrary">
-<arg>11</arg>
-<doc>Sends a press of keycode to the device.</doc>
-<status status="PASS" starttime="20220706 15:22:17.556" endtime="20220706 15:22:18.103"/>
-</kw>
-<kw name="Press Keycode" library="AppiumLibrary">
-<arg>12</arg>
-<doc>Sends a press of keycode to the device.</doc>
-<status status="PASS" starttime="20220706 15:22:18.103" endtime="20220706 15:22:18.631"/>
-</kw>
-<kw name="Sleep" library="BuiltIn">
-<arg>3</arg>
-<doc>Pauses the test executed for the given time.</doc>
-<msg timestamp="20220706 15:22:21.632" level="INFO">Slept 3 seconds</msg>
-<status status="PASS" starttime="20220706 15:22:18.631" endtime="20220706 15:22:21.633"/>
-</kw>
-<kw name="Click Element At Coordinates" library="AppiumLibrary">
-<arg>55</arg>
-<arg>237</arg>
-<doc>click element at a certain coordinate</doc>
-<msg timestamp="20220706 15:22:21.641" level="INFO">Pressing at (55, 237).</msg>
-<status status="PASS" starttime="20220706 15:22:21.633" endtime="20220706 15:22:21.845"/>
-</kw>
-<kw name="Click Element" library="AppiumLibrary">
-<arg>${PRE_BTN_CHANGE_PASS_CURRENT_NEW_PASS}</arg>
-<doc>Click element identified by `locator`.</doc>
-<msg timestamp="20220706 15:22:21.853" level="INFO">Clicking element '//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[2]/android.widget.EditText[2]'.</msg>
-<status status="PASS" starttime="20220706 15:22:21.846" endtime="20220706 15:22:22.612"/>
-</kw>
-<for flavor="IN RANGE">
-<var>${i}</var>
-<value>0</value>
-<value>9</value>
-<iter>
-<var name="${i}">0</var>
-<kw name="Press Keycode" library="AppiumLibrary">
-<arg>67</arg>
-<doc>Sends a press of keycode to the device.</doc>
-<status status="PASS" starttime="20220706 15:22:22.613" endtime="20220706 15:22:23.589"/>
-</kw>
-<status status="PASS" starttime="20220706 15:22:22.613" endtime="20220706 15:22:23.589"/>
-</iter>
-<iter>
-<var name="${i}">1</var>
-<kw name="Press Keycode" library="AppiumLibrary">
-<arg>67</arg>
-<doc>Sends a press of keycode to the device.</doc>
-<status status="PASS" starttime="20220706 15:22:23.589" endtime="20220706 15:22:24.134"/>
-</kw>
-<status status="PASS" starttime="20220706 15:22:23.589" endtime="20220706 15:22:24.134"/>
-</iter>
-<iter>
-<var name="${i}">2</var>
-<kw name="Press Keycode" library="AppiumLibrary">
-<arg>67</arg>
-<doc>Sends a press of keycode to the device.</doc>
-<status status="PASS" starttime="20220706 15:22:24.134" endtime="20220706 15:22:24.681"/>
-</kw>
-<status status="PASS" starttime="20220706 15:22:24.134" endtime="20220706 15:22:24.682"/>
-</iter>
-<iter>
-<var name="${i}">3</var>
-<kw name="Press Keycode" library="AppiumLibrary">
-<arg>67</arg>
-<doc>Sends a press of keycode to the device.</doc>
-<status status="PASS" starttime="20220706 15:22:24.682" endtime="20220706 15:22:25.215"/>
-</kw>
-<status status="PASS" starttime="20220706 15:22:24.682" endtime="20220706 15:22:25.215"/>
-</iter>
-<iter>
-<var name="${i}">4</var>
-<kw name="Press Keycode" library="AppiumLibrary">
-<arg>67</arg>
-<doc>Sends a press of keycode to the device.</doc>
-<status status="PASS" starttime="20220706 15:22:25.215" endtime="20220706 15:22:25.745"/>
-</kw>
-<status status="PASS" starttime="20220706 15:22:25.215" endtime="20220706 15:22:25.745"/>
-</iter>
-<iter>
-<var name="${i}">5</var>
-<kw name="Press Keycode" library="AppiumLibrary">
-<arg>67</arg>
-<doc>Sends a press of keycode to the device.</doc>
-<status status="PASS" starttime="20220706 15:22:25.746" endtime="20220706 15:22:26.278"/>
-</kw>
-<status status="PASS" starttime="20220706 15:22:25.745" endtime="20220706 15:22:26.279"/>
-</iter>
-<iter>
-<var name="${i}">6</var>
-<kw name="Press Keycode" library="AppiumLibrary">
-<arg>67</arg>
-<doc>Sends a press of keycode to the device.</doc>
-<status status="PASS" starttime="20220706 15:22:26.279" endtime="20220706 15:22:26.808"/>
-</kw>
-<status status="PASS" starttime="20220706 15:22:26.279" endtime="20220706 15:22:26.808"/>
-</iter>
-<iter>
-<var name="${i}">7</var>
-<kw name="Press Keycode" library="AppiumLibrary">
-<arg>67</arg>
-<doc>Sends a press of keycode to the device.</doc>
-<status status="PASS" starttime="20220706 15:22:26.809" endtime="20220706 15:22:27.341"/>
-</kw>
-<status status="PASS" starttime="20220706 15:22:26.809" endtime="20220706 15:22:27.341"/>
-</iter>
-<iter>
-<var name="${i}">8</var>
-<kw name="Press Keycode" library="AppiumLibrary">
-<arg>67</arg>
-<doc>Sends a press of keycode to the device.</doc>
-<status status="PASS" starttime="20220706 15:22:27.342" endtime="20220706 15:22:27.841"/>
-</kw>
-<status status="PASS" starttime="20220706 15:22:27.342" endtime="20220706 15:22:27.841"/>
-</iter>
-<status status="PASS" starttime="20220706 15:22:22.613" endtime="20220706 15:22:27.841"/>
-</for>
-<kw name="Press Keycode" library="AppiumLibrary">
-<arg>-1</arg>
-<doc>Sends a press of keycode to the device.</doc>
-<status status="PASS" starttime="20220706 15:22:27.842" endtime="20220706 15:22:27.886"/>
-</kw>
-<kw name="Press Keycode" library="AppiumLibrary">
-<arg>37</arg>
-<doc>Sends a press of keycode to the device.</doc>
-<status status="PASS" starttime="20220706 15:22:27.887" endtime="20220706 15:22:27.956"/>
-</kw>
-<kw name="Press Keycode" library="AppiumLibrary">
-<arg>39</arg>
-<doc>Sends a press of keycode to the device.</doc>
-<status status="PASS" starttime="20220706 15:22:27.956" endtime="20220706 15:22:28.916"/>
-</kw>
-<kw name="Press Keycode" library="AppiumLibrary">
-<arg>43</arg>
-<doc>Sends a press of keycode to the device.</doc>
-<status status="PASS" starttime="20220706 15:22:28.916" endtime="20220706 15:22:29.562"/>
-</kw>
-<kw name="Press Keycode" library="AppiumLibrary">
-<arg>42</arg>
-<doc>Sends a press of keycode to the device.</doc>
-<status status="PASS" starttime="20220706 15:22:29.563" endtime="20220706 15:22:30.113"/>
-</kw>
-<kw name="Press Keycode" library="AppiumLibrary">
-<arg>8</arg>
-<doc>Sends a press of keycode to the device.</doc>
-<status status="PASS" starttime="20220706 15:22:30.114" endtime="20220706 15:22:30.662"/>
-</kw>
-<kw name="Press Keycode" library="AppiumLibrary">
-<arg>9</arg>
-<doc>Sends a press of keycode to the device.</doc>
-<status status="PASS" starttime="20220706 15:22:30.663" endtime="20220706 15:22:31.189"/>
-</kw>
-<kw name="Press Keycode" library="AppiumLibrary">
-<arg>10</arg>
-<doc>Sends a press of keycode to the device.</doc>
-<status status="PASS" starttime="20220706 15:22:31.189" endtime="20220706 15:22:31.717"/>
-</kw>
-<kw name="Press Keycode" library="AppiumLibrary">
-<arg>11</arg>
-<doc>Sends a press of keycode to the device.</doc>
-<status status="PASS" starttime="20220706 15:22:31.718" endtime="20220706 15:22:32.265"/>
-</kw>
-<kw name="Sleep" library="BuiltIn">
-<arg>1</arg>
-<doc>Pauses the test executed for the given time.</doc>
-<msg timestamp="20220706 15:22:33.267" level="INFO">Slept 1 second</msg>
-<status status="PASS" starttime="20220706 15:22:32.265" endtime="20220706 15:22:33.267"/>
-</kw>
-<kw name="Click Element At Coordinates" library="AppiumLibrary">
-<arg>55</arg>
-<arg>237</arg>
-<doc>click element at a certain coordinate</doc>
-<msg timestamp="20220706 15:22:33.277" level="INFO">Pressing at (55, 237).</msg>
-<status status="PASS" starttime="20220706 15:22:33.268" endtime="20220706 15:22:33.433"/>
-</kw>
-<kw name="Click Element" library="AppiumLibrary">
-<arg>${PRE_BTN_CHANGE_PASS_CURRENT_CONFIRM_PASS}</arg>
-<doc>Click element identified by `locator`.</doc>
-<msg timestamp="20220706 15:22:33.443" level="INFO">Clicking element '//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[2]/android.widget.EditText[3]'.</msg>
-<status status="PASS" starttime="20220706 15:22:33.434" endtime="20220706 15:22:34.195"/>
-</kw>
-<for flavor="IN RANGE">
-<var>${i}</var>
-<value>0</value>
-<value>9</value>
-<iter>
-<var name="${i}">0</var>
-<kw name="Press Keycode" library="AppiumLibrary">
-<arg>67</arg>
-<doc>Sends a press of keycode to the device.</doc>
-<status status="PASS" starttime="20220706 15:22:34.196" endtime="20220706 15:22:35.211"/>
-</kw>
-<status status="PASS" starttime="20220706 15:22:34.196" endtime="20220706 15:22:35.212"/>
-</iter>
-<iter>
-<var name="${i}">1</var>
-<kw name="Press Keycode" library="AppiumLibrary">
-<arg>67</arg>
-<doc>Sends a press of keycode to the device.</doc>
-<status status="PASS" starttime="20220706 15:22:35.212" endtime="20220706 15:22:35.701"/>
-</kw>
-<status status="PASS" starttime="20220706 15:22:35.212" endtime="20220706 15:22:35.701"/>
-</iter>
-<iter>
-<var name="${i}">2</var>
-<kw name="Press Keycode" library="AppiumLibrary">
-<arg>67</arg>
-<doc>Sends a press of keycode to the device.</doc>
-<status status="PASS" starttime="20220706 15:22:35.701" endtime="20220706 15:22:36.251"/>
-</kw>
-<status status="PASS" starttime="20220706 15:22:35.701" endtime="20220706 15:22:36.251"/>
-</iter>
-<iter>
-<var name="${i}">3</var>
-<kw name="Press Keycode" library="AppiumLibrary">
-<arg>67</arg>
-<doc>Sends a press of keycode to the device.</doc>
-<status status="PASS" starttime="20220706 15:22:36.252" endtime="20220706 15:22:36.777"/>
-</kw>
-<status status="PASS" starttime="20220706 15:22:36.251" endtime="20220706 15:22:36.777"/>
-</iter>
-<iter>
-<var name="${i}">4</var>
-<kw name="Press Keycode" library="AppiumLibrary">
-<arg>67</arg>
-<doc>Sends a press of keycode to the device.</doc>
-<status status="PASS" starttime="20220706 15:22:36.778" endtime="20220706 15:22:37.326"/>
-</kw>
-<status status="PASS" starttime="20220706 15:22:36.778" endtime="20220706 15:22:37.326"/>
-</iter>
-<iter>
-<var name="${i}">5</var>
-<kw name="Press Keycode" library="AppiumLibrary">
-<arg>67</arg>
-<doc>Sends a press of keycode to the device.</doc>
-<status status="PASS" starttime="20220706 15:22:37.327" endtime="20220706 15:22:37.852"/>
-</kw>
-<status status="PASS" starttime="20220706 15:22:37.327" endtime="20220706 15:22:37.852"/>
-</iter>
-<iter>
-<var name="${i}">6</var>
-<kw name="Press Keycode" library="AppiumLibrary">
-<arg>67</arg>
-<doc>Sends a press of keycode to the device.</doc>
-<status status="PASS" starttime="20220706 15:22:37.853" endtime="20220706 15:22:38.382"/>
-</kw>
-<status status="PASS" starttime="20220706 15:22:37.852" endtime="20220706 15:22:38.382"/>
-</iter>
-<iter>
-<var name="${i}">7</var>
-<kw name="Press Keycode" library="AppiumLibrary">
-<arg>67</arg>
-<doc>Sends a press of keycode to the device.</doc>
-<status status="PASS" starttime="20220706 15:22:38.382" endtime="20220706 15:22:38.918"/>
-</kw>
-<status status="PASS" starttime="20220706 15:22:38.382" endtime="20220706 15:22:38.918"/>
-</iter>
-<iter>
-<var name="${i}">8</var>
-<kw name="Press Keycode" library="AppiumLibrary">
-<arg>67</arg>
-<doc>Sends a press of keycode to the device.</doc>
-<status status="PASS" starttime="20220706 15:22:38.919" endtime="20220706 15:22:39.505"/>
-</kw>
-<status status="PASS" starttime="20220706 15:22:38.919" endtime="20220706 15:22:39.505"/>
-</iter>
-<status status="PASS" starttime="20220706 15:22:34.196" endtime="20220706 15:22:39.505"/>
-</for>
-<kw name="Sleep" library="BuiltIn">
-<arg>2</arg>
-<doc>Pauses the test executed for the given time.</doc>
-<msg timestamp="20220706 15:22:41.508" level="INFO">Slept 2 seconds</msg>
-<status status="PASS" starttime="20220706 15:22:39.506" endtime="20220706 15:22:41.508"/>
-</kw>
-<kw name="Press Keycode" library="AppiumLibrary">
-<arg>-1</arg>
-<doc>Sends a press of keycode to the device.</doc>
-<status status="PASS" starttime="20220706 15:22:41.509" endtime="20220706 15:22:41.570"/>
-</kw>
-<kw name="Press Keycode" library="AppiumLibrary">
-<arg>37</arg>
-<doc>Sends a press of keycode to the device.</doc>
-<status status="PASS" starttime="20220706 15:22:41.571" endtime="20220706 15:22:41.651"/>
-</kw>
-<kw name="Press Keycode" library="AppiumLibrary">
-<arg>39</arg>
-<doc>Sends a press of keycode to the device.</doc>
-<status status="PASS" starttime="20220706 15:22:41.651" endtime="20220706 15:22:42.201"/>
-</kw>
-<kw name="Press Keycode" library="AppiumLibrary">
-<arg>43</arg>
-<doc>Sends a press of keycode to the device.</doc>
-<status status="PASS" starttime="20220706 15:22:42.202" endtime="20220706 15:22:42.745"/>
-</kw>
-<kw name="Press Keycode" library="AppiumLibrary">
-<arg>42</arg>
-<doc>Sends a press of keycode to the device.</doc>
-<status status="PASS" starttime="20220706 15:22:42.745" endtime="20220706 15:22:43.295"/>
-</kw>
-<kw name="Press Keycode" library="AppiumLibrary">
-<arg>8</arg>
-<doc>Sends a press of keycode to the device.</doc>
-<status status="PASS" starttime="20220706 15:22:43.295" endtime="20220706 15:22:43.822"/>
-</kw>
-<kw name="Press Keycode" library="AppiumLibrary">
-<arg>9</arg>
-<doc>Sends a press of keycode to the device.</doc>
-<status status="PASS" starttime="20220706 15:22:43.822" endtime="20220706 15:22:44.374"/>
-</kw>
-<kw name="Press Keycode" library="AppiumLibrary">
-<arg>10</arg>
-<doc>Sends a press of keycode to the device.</doc>
-<status status="PASS" starttime="20220706 15:22:44.374" endtime="20220706 15:22:44.922"/>
-</kw>
-<kw name="Press Keycode" library="AppiumLibrary">
-<arg>11</arg>
-<doc>Sends a press of keycode to the device.</doc>
-<status status="PASS" starttime="20220706 15:22:44.923" endtime="20220706 15:22:45.447"/>
-</kw>
-<kw name="Sleep" library="BuiltIn">
-<arg>2</arg>
-<doc>Pauses the test executed for the given time.</doc>
-<msg timestamp="20220706 15:22:47.450" level="INFO">Slept 2 seconds</msg>
-<status status="PASS" starttime="20220706 15:22:45.448" endtime="20220706 15:22:47.451"/>
-</kw>
-<kw name="Click Element At Coordinates" library="AppiumLibrary">
-<arg>55</arg>
-<arg>237</arg>
-<doc>click element at a certain coordinate</doc>
-<msg timestamp="20220706 15:22:47.460" level="INFO">Pressing at (55, 237).</msg>
-<status status="PASS" starttime="20220706 15:22:47.451" endtime="20220706 15:22:48.320"/>
-</kw>
-<kw name="Tap" library="AppiumLibrary">
-<arg>${PRE_BTN_CHANGE_PASS_BTN_CONTINUE}</arg>
-<doc>Tap element identified by ``locator``. </doc>
-<status status="PASS" starttime="20220706 15:22:48.321" endtime="20220706 15:22:50.555"/>
-</kw>
-<kw name="Wait Until Page Contains Element" library="AppiumLibrary">
-<arg>${l_message_error}</arg>
-<doc>Waits until element specified with `locator` appears on current page.</doc>
-<status status="PASS" starttime="20220706 15:22:50.556" endtime="20220706 15:22:50.665"/>
-</kw>
-<kw name="Log To Console" library="BuiltIn">
-<arg>"*******************END_Current_Pass_Different*********************"</arg>
-<doc>Logs the given message to the console.</doc>
-<status status="PASS" starttime="20220706 15:22:50.666" endtime="20220706 15:22:50.667"/>
-</kw>
-<status status="PASS" starttime="20220706 15:22:03.445" endtime="20220706 15:22:50.667"/>
-</kw>
-<kw name="TC_Preferences_Change_Confirm_Pass_Different" library="K_Preferences">
-<kw name="Log To Console" library="BuiltIn">
-<arg>"*******************START_Diferent_Pass*********************"</arg>
-<doc>Logs the given message to the console.</doc>
-<status status="PASS" starttime="20220706 15:22:50.668" endtime="20220706 15:22:50.668"/>
-</kw>
-<kw name="Sleep" library="BuiltIn">
-<arg>4</arg>
-<doc>Pauses the test executed for the given time.</doc>
-<msg timestamp="20220706 15:22:54.671" level="INFO">Slept 4 seconds</msg>
-<status status="PASS" starttime="20220706 15:22:50.669" endtime="20220706 15:22:54.671"/>
-</kw>
-<kw name="Click Element" library="AppiumLibrary">
-<arg>${PRE_BTN_CHANGE_PASS_CURRENT_OLD_PASS}</arg>
-<doc>Click element identified by `locator`.</doc>
-<msg timestamp="20220706 15:22:54.680" level="INFO">Clicking element '//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[2]/android.widget.EditText[1]'.</msg>
-<status status="PASS" starttime="20220706 15:22:54.672" endtime="20220706 15:22:54.839"/>
-</kw>
-<for flavor="IN RANGE">
-<var>${i}</var>
-<value>0</value>
-<value>9</value>
-<iter>
-<var name="${i}">0</var>
-<kw name="Press Keycode" library="AppiumLibrary">
-<arg>67</arg>
-<doc>Sends a press of keycode to the device.</doc>
-<status status="PASS" starttime="20220706 15:22:54.840" endtime="20220706 15:22:55.812"/>
-</kw>
-<status status="PASS" starttime="20220706 15:22:54.840" endtime="20220706 15:22:55.812"/>
-</iter>
-<iter>
-<var name="${i}">1</var>
-<kw name="Press Keycode" library="AppiumLibrary">
-<arg>67</arg>
-<doc>Sends a press of keycode to the device.</doc>
-<status status="PASS" starttime="20220706 15:22:55.813" endtime="20220706 15:22:56.343"/>
-</kw>
-<status status="PASS" starttime="20220706 15:22:55.812" endtime="20220706 15:22:56.343"/>
-</iter>
-<iter>
-<var name="${i}">2</var>
-<kw name="Press Keycode" library="AppiumLibrary">
-<arg>67</arg>
-<doc>Sends a press of keycode to the device.</doc>
-<status status="PASS" starttime="20220706 15:22:56.344" endtime="20220706 15:22:56.906"/>
-</kw>
-<status status="PASS" starttime="20220706 15:22:56.343" endtime="20220706 15:22:56.906"/>
-</iter>
-<iter>
-<var name="${i}">3</var>
-<kw name="Press Keycode" library="AppiumLibrary">
-<arg>67</arg>
-<doc>Sends a press of keycode to the device.</doc>
-<status status="PASS" starttime="20220706 15:22:56.907" endtime="20220706 15:22:57.454"/>
-</kw>
-<status status="PASS" starttime="20220706 15:22:56.906" endtime="20220706 15:22:57.454"/>
-</iter>
-<iter>
-<var name="${i}">4</var>
-<kw name="Press Keycode" library="AppiumLibrary">
-<arg>67</arg>
-<doc>Sends a press of keycode to the device.</doc>
-<status status="PASS" starttime="20220706 15:22:57.455" endtime="20220706 15:22:57.984"/>
-</kw>
-<status status="PASS" starttime="20220706 15:22:57.454" endtime="20220706 15:22:57.984"/>
-</iter>
-<iter>
-<var name="${i}">5</var>
-<kw name="Press Keycode" library="AppiumLibrary">
-<arg>67</arg>
-<doc>Sends a press of keycode to the device.</doc>
-<status status="PASS" starttime="20220706 15:22:57.984" endtime="20220706 15:22:58.514"/>
-</kw>
-<status status="PASS" starttime="20220706 15:22:57.984" endtime="20220706 15:22:58.514"/>
-</iter>
-<iter>
-<var name="${i}">6</var>
-<kw name="Press Keycode" library="AppiumLibrary">
-<arg>67</arg>
-<doc>Sends a press of keycode to the device.</doc>
-<status status="PASS" starttime="20220706 15:22:58.514" endtime="20220706 15:22:59.028"/>
-</kw>
-<status status="PASS" starttime="20220706 15:22:58.514" endtime="20220706 15:22:59.029"/>
-</iter>
-<iter>
-<var name="${i}">7</var>
-<kw name="Press Keycode" library="AppiumLibrary">
-<arg>67</arg>
-<doc>Sends a press of keycode to the device.</doc>
-<status status="PASS" starttime="20220706 15:22:59.029" endtime="20220706 15:22:59.579"/>
-</kw>
-<status status="PASS" starttime="20220706 15:22:59.029" endtime="20220706 15:22:59.579"/>
-</iter>
-<iter>
-<var name="${i}">8</var>
-<kw name="Press Keycode" library="AppiumLibrary">
-<arg>67</arg>
-<doc>Sends a press of keycode to the device.</doc>
-<status status="PASS" starttime="20220706 15:22:59.579" endtime="20220706 15:23:00.107"/>
-</kw>
-<status status="PASS" starttime="20220706 15:22:59.579" endtime="20220706 15:23:00.108"/>
-</iter>
-<status status="PASS" starttime="20220706 15:22:54.840" endtime="20220706 15:23:00.108"/>
-</for>
-<kw name="Press Keycode" library="AppiumLibrary">
-<arg>8</arg>
-<doc>Sends a press of keycode to the device.</doc>
-<status status="PASS" starttime="20220706 15:23:00.108" endtime="20220706 15:23:00.640"/>
-</kw>
-<kw name="Press Keycode" library="AppiumLibrary">
-<arg>9</arg>
-<doc>Sends a press of keycode to the device.</doc>
-<status status="PASS" starttime="20220706 15:23:00.640" endtime="20220706 15:23:01.185"/>
-</kw>
-<kw name="Press Keycode" library="AppiumLibrary">
-<arg>10</arg>
-<doc>Sends a press of keycode to the device.</doc>
-<status status="PASS" starttime="20220706 15:23:01.185" endtime="20220706 15:23:01.738"/>
-</kw>
-<kw name="Press Keycode" library="AppiumLibrary">
-<arg>11</arg>
-<doc>Sends a press of keycode to the device.</doc>
-<status status="PASS" starttime="20220706 15:23:01.739" endtime="20220706 15:23:02.281"/>
-</kw>
-<kw name="Press Keycode" library="AppiumLibrary">
-<arg>-1</arg>
-<doc>Sends a press of keycode to the device.</doc>
-<status status="PASS" starttime="20220706 15:23:02.281" endtime="20220706 15:23:02.797"/>
-</kw>
-<kw name="Press Keycode" library="AppiumLibrary">
-<arg>37</arg>
-<doc>Sends a press of keycode to the device.</doc>
-<status status="PASS" starttime="20220706 15:23:02.797" endtime="20220706 15:23:02.877"/>
-</kw>
-<kw name="Press Keycode" library="AppiumLibrary">
-<arg>39</arg>
-<doc>Sends a press of keycode to the device.</doc>
-<status status="PASS" starttime="20220706 15:23:02.877" endtime="20220706 15:23:03.424"/>
-</kw>
-<kw name="Press Keycode" library="AppiumLibrary">
-<arg>43</arg>
-<doc>Sends a press of keycode to the device.</doc>
-<status status="PASS" starttime="20220706 15:23:03.425" endtime="20220706 15:23:03.967"/>
-</kw>
-<kw name="Press Keycode" library="AppiumLibrary">
-<arg>42</arg>
-<doc>Sends a press of keycode to the device.</doc>
-<status status="PASS" starttime="20220706 15:23:03.968" endtime="20220706 15:23:04.502"/>
-</kw>
-<kw name="Sleep" library="BuiltIn">
-<arg>3</arg>
-<doc>Pauses the test executed for the given time.</doc>
-<msg timestamp="20220706 15:23:07.503" level="INFO">Slept 3 seconds</msg>
-<status status="PASS" starttime="20220706 15:23:04.502" endtime="20220706 15:23:07.504"/>
-</kw>
-<kw name="Click Element At Coordinates" library="AppiumLibrary">
-<arg>55</arg>
-<arg>237</arg>
-<doc>click element at a certain coordinate</doc>
-<msg timestamp="20220706 15:23:07.513" level="INFO">Pressing at (55, 237).</msg>
-<status status="PASS" starttime="20220706 15:23:07.504" endtime="20220706 15:23:08.340"/>
-</kw>
-<kw name="Click Element" library="AppiumLibrary">
-<arg>${PRE_BTN_CHANGE_PASS_CURRENT_NEW_PASS}</arg>
-<doc>Click element identified by `locator`.</doc>
-<msg timestamp="20220706 15:23:08.349" level="INFO">Clicking element '//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[2]/android.widget.EditText[2]'.</msg>
-<status status="PASS" starttime="20220706 15:23:08.340" endtime="20220706 15:23:08.498"/>
-</kw>
-<for flavor="IN RANGE">
-<var>${i}</var>
-<value>0</value>
-<value>9</value>
-<iter>
-<var name="${i}">0</var>
-<kw name="Press Keycode" library="AppiumLibrary">
-<arg>67</arg>
-<doc>Sends a press of keycode to the device.</doc>
-<status status="PASS" starttime="20220706 15:23:08.499" endtime="20220706 15:23:09.641"/>
-</kw>
-<status status="PASS" starttime="20220706 15:23:08.498" endtime="20220706 15:23:09.641"/>
-</iter>
-<iter>
-<var name="${i}">1</var>
-<kw name="Press Keycode" library="AppiumLibrary">
-<arg>67</arg>
-<doc>Sends a press of keycode to the device.</doc>
-<status status="PASS" starttime="20220706 15:23:09.642" endtime="20220706 15:23:10.153"/>
-</kw>
-<status status="PASS" starttime="20220706 15:23:09.641" endtime="20220706 15:23:10.153"/>
-</iter>
-<iter>
-<var name="${i}">2</var>
-<kw name="Press Keycode" library="AppiumLibrary">
-<arg>67</arg>
-<doc>Sends a press of keycode to the device.</doc>
-<status status="PASS" starttime="20220706 15:23:10.154" endtime="20220706 15:23:10.685"/>
-</kw>
-<status status="PASS" starttime="20220706 15:23:10.153" endtime="20220706 15:23:10.685"/>
-</iter>
-<iter>
-<var name="${i}">3</var>
-<kw name="Press Keycode" library="AppiumLibrary">
-<arg>67</arg>
-<doc>Sends a press of keycode to the device.</doc>
-<status status="PASS" starttime="20220706 15:23:10.686" endtime="20220706 15:23:11.240"/>
-</kw>
-<status status="PASS" starttime="20220706 15:23:10.686" endtime="20220706 15:23:11.240"/>
-</iter>
-<iter>
-<var name="${i}">4</var>
-<kw name="Press Keycode" library="AppiumLibrary">
-<arg>67</arg>
-<doc>Sends a press of keycode to the device.</doc>
-<status status="PASS" starttime="20220706 15:23:11.241" endtime="20220706 15:23:11.751"/>
-</kw>
-<status status="PASS" starttime="20220706 15:23:11.241" endtime="20220706 15:23:11.751"/>
-</iter>
-<iter>
-<var name="${i}">5</var>
-<kw name="Press Keycode" library="AppiumLibrary">
-<arg>67</arg>
-<doc>Sends a press of keycode to the device.</doc>
-<status status="PASS" starttime="20220706 15:23:11.753" endtime="20220706 15:23:12.295"/>
-</kw>
-<status status="PASS" starttime="20220706 15:23:11.753" endtime="20220706 15:23:12.295"/>
-</iter>
-<iter>
-<var name="${i}">6</var>
-<kw name="Press Keycode" library="AppiumLibrary">
-<arg>67</arg>
-<doc>Sends a press of keycode to the device.</doc>
-<status status="PASS" starttime="20220706 15:23:12.296" endtime="20220706 15:23:12.838"/>
-</kw>
-<status status="PASS" starttime="20220706 15:23:12.296" endtime="20220706 15:23:12.838"/>
-</iter>
-<iter>
-<var name="${i}">7</var>
-<kw name="Press Keycode" library="AppiumLibrary">
-<arg>67</arg>
-<doc>Sends a press of keycode to the device.</doc>
-<status status="PASS" starttime="20220706 15:23:12.838" endtime="20220706 15:23:13.369"/>
-</kw>
-<status status="PASS" starttime="20220706 15:23:12.838" endtime="20220706 15:23:13.369"/>
-</iter>
-<iter>
-<var name="${i}">8</var>
-<kw name="Press Keycode" library="AppiumLibrary">
-<arg>67</arg>
-<doc>Sends a press of keycode to the device.</doc>
-<status status="PASS" starttime="20220706 15:23:13.370" endtime="20220706 15:23:13.901"/>
-</kw>
-<status status="PASS" starttime="20220706 15:23:13.370" endtime="20220706 15:23:13.901"/>
-</iter>
-<status status="PASS" starttime="20220706 15:23:08.498" endtime="20220706 15:23:13.901"/>
-</for>
-<kw name="Press Keycode" library="AppiumLibrary">
-<arg>-1</arg>
-<doc>Sends a press of keycode to the device.</doc>
-<status status="PASS" starttime="20220706 15:23:13.901" endtime="20220706 15:23:13.951"/>
-</kw>
-<kw name="Press Keycode" library="AppiumLibrary">
-<arg>37</arg>
-<doc>Sends a press of keycode to the device.</doc>
-<status status="PASS" starttime="20220706 15:23:13.951" endtime="20220706 15:23:14.019"/>
-</kw>
-<kw name="Press Keycode" library="AppiumLibrary">
-<arg>39</arg>
-<doc>Sends a press of keycode to the device.</doc>
-<status status="PASS" starttime="20220706 15:23:14.019" endtime="20220706 15:23:14.581"/>
-</kw>
-<kw name="Press Keycode" library="AppiumLibrary">
-<arg>43</arg>
-<doc>Sends a press of keycode to the device.</doc>
-<status status="PASS" starttime="20220706 15:23:14.582" endtime="20220706 15:23:15.114"/>
-</kw>
-<kw name="Press Keycode" library="AppiumLibrary">
-<arg>42</arg>
-<doc>Sends a press of keycode to the device.</doc>
-<status status="PASS" starttime="20220706 15:23:15.114" endtime="20220706 15:23:15.641"/>
-</kw>
-<kw name="Press Keycode" library="AppiumLibrary">
-<arg>8</arg>
-<doc>Sends a press of keycode to the device.</doc>
-<status status="PASS" starttime="20220706 15:23:15.641" endtime="20220706 15:23:16.188"/>
-</kw>
-<kw name="Press Keycode" library="AppiumLibrary">
-<arg>9</arg>
-<doc>Sends a press of keycode to the device.</doc>
-<status status="PASS" starttime="20220706 15:23:16.189" endtime="20220706 15:23:16.717"/>
-</kw>
-<kw name="Press Keycode" library="AppiumLibrary">
-<arg>10</arg>
-<doc>Sends a press of keycode to the device.</doc>
-<status status="PASS" starttime="20220706 15:23:16.717" endtime="20220706 15:23:17.268"/>
-</kw>
-<kw name="Press Keycode" library="AppiumLibrary">
-<arg>11</arg>
-<doc>Sends a press of keycode to the device.</doc>
-<status status="PASS" starttime="20220706 15:23:17.268" endtime="20220706 15:23:17.815"/>
-</kw>
-<kw name="Sleep" library="BuiltIn">
-<arg>1</arg>
-<doc>Pauses the test executed for the given time.</doc>
-<msg timestamp="20220706 15:23:18.818" level="INFO">Slept 1 second</msg>
-<status status="PASS" starttime="20220706 15:23:17.815" endtime="20220706 15:23:18.819"/>
-</kw>
-<kw name="Click Element At Coordinates" library="AppiumLibrary">
-<arg>55</arg>
-<arg>237</arg>
-<doc>click element at a certain coordinate</doc>
-<msg timestamp="20220706 15:23:18.828" level="INFO">Pressing at (55, 237).</msg>
-<status status="PASS" starttime="20220706 15:23:18.819" endtime="20220706 15:23:19.013"/>
-</kw>
-<kw name="Click Element" library="AppiumLibrary">
-<arg>${PRE_BTN_CHANGE_PASS_CURRENT_CONFIRM_PASS}</arg>
-<doc>Click element identified by `locator`.</doc>
-<msg timestamp="20220706 15:23:19.020" level="INFO">Clicking element '//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[2]/android.widget.EditText[3]'.</msg>
-<status status="PASS" starttime="20220706 15:23:19.014" endtime="20220706 15:23:19.770"/>
-</kw>
-<for flavor="IN RANGE">
-<var>${i}</var>
-<value>0</value>
-<value>9</value>
-<iter>
-<var name="${i}">0</var>
-<kw name="Press Keycode" library="AppiumLibrary">
-<arg>67</arg>
-<doc>Sends a press of keycode to the device.</doc>
-<status status="PASS" starttime="20220706 15:23:19.772" endtime="20220706 15:23:20.752"/>
-</kw>
-<status status="PASS" starttime="20220706 15:23:19.771" endtime="20220706 15:23:20.752"/>
-</iter>
-<iter>
-<var name="${i}">1</var>
-<kw name="Press Keycode" library="AppiumLibrary">
-<arg>67</arg>
-<doc>Sends a press of keycode to the device.</doc>
-<status status="PASS" starttime="20220706 15:23:20.753" endtime="20220706 15:23:21.293"/>
-</kw>
-<status status="PASS" starttime="20220706 15:23:20.752" endtime="20220706 15:23:21.293"/>
-</iter>
-<iter>
-<var name="${i}">2</var>
-<kw name="Press Keycode" library="AppiumLibrary">
-<arg>67</arg>
-<doc>Sends a press of keycode to the device.</doc>
-<status status="PASS" starttime="20220706 15:23:21.293" endtime="20220706 15:23:21.827"/>
-</kw>
-<status status="PASS" starttime="20220706 15:23:21.293" endtime="20220706 15:23:21.827"/>
-</iter>
-<iter>
-<var name="${i}">3</var>
-<kw name="Press Keycode" library="AppiumLibrary">
-<arg>67</arg>
-<doc>Sends a press of keycode to the device.</doc>
-<status status="PASS" starttime="20220706 15:23:21.828" endtime="20220706 15:23:22.370"/>
-</kw>
-<status status="PASS" starttime="20220706 15:23:21.827" endtime="20220706 15:23:22.370"/>
-</iter>
-<iter>
-<var name="${i}">4</var>
-<kw name="Press Keycode" library="AppiumLibrary">
-<arg>67</arg>
-<doc>Sends a press of keycode to the device.</doc>
-<status status="PASS" starttime="20220706 15:23:22.372" endtime="20220706 15:23:22.899"/>
-</kw>
-<status status="PASS" starttime="20220706 15:23:22.371" endtime="20220706 15:23:22.899"/>
-</iter>
-<iter>
-<var name="${i}">5</var>
-<kw name="Press Keycode" library="AppiumLibrary">
-<arg>67</arg>
-<doc>Sends a press of keycode to the device.</doc>
-<status status="PASS" starttime="20220706 15:23:22.900" endtime="20220706 15:23:23.430"/>
-</kw>
-<status status="PASS" starttime="20220706 15:23:22.900" endtime="20220706 15:23:23.430"/>
-</iter>
-<iter>
-<var name="${i}">6</var>
-<kw name="Press Keycode" library="AppiumLibrary">
-<arg>67</arg>
-<doc>Sends a press of keycode to the device.</doc>
-<status status="PASS" starttime="20220706 15:23:23.430" endtime="20220706 15:23:23.958"/>
-</kw>
-<status status="PASS" starttime="20220706 15:23:23.430" endtime="20220706 15:23:23.958"/>
-</iter>
-<iter>
-<var name="${i}">7</var>
-<kw name="Press Keycode" library="AppiumLibrary">
-<arg>67</arg>
-<doc>Sends a press of keycode to the device.</doc>
-<status status="PASS" starttime="20220706 15:23:23.959" endtime="20220706 15:23:24.493"/>
-</kw>
-<status status="PASS" starttime="20220706 15:23:23.958" endtime="20220706 15:23:24.493"/>
-</iter>
-<iter>
-<var name="${i}">8</var>
-<kw name="Press Keycode" library="AppiumLibrary">
-<arg>67</arg>
-<doc>Sends a press of keycode to the device.</doc>
-<status status="PASS" starttime="20220706 15:23:24.493" endtime="20220706 15:23:25.038"/>
-</kw>
-<status status="PASS" starttime="20220706 15:23:24.493" endtime="20220706 15:23:25.039"/>
-</iter>
-<status status="PASS" starttime="20220706 15:23:19.771" endtime="20220706 15:23:25.039"/>
-</for>
-<kw name="Sleep" library="BuiltIn">
-<arg>2</arg>
-<doc>Pauses the test executed for the given time.</doc>
-<msg timestamp="20220706 15:23:27.039" level="INFO">Slept 2 seconds</msg>
-<status status="PASS" starttime="20220706 15:23:25.039" endtime="20220706 15:23:27.040"/>
-</kw>
-<kw name="Press Keycode" library="AppiumLibrary">
-<arg>-1</arg>
-<doc>Sends a press of keycode to the device.</doc>
-<status status="PASS" starttime="20220706 15:23:27.040" endtime="20220706 15:23:27.132"/>
-</kw>
-<kw name="Press Keycode" library="AppiumLibrary">
-<arg>37</arg>
-<doc>Sends a press of keycode to the device.</doc>
-<status status="PASS" starttime="20220706 15:23:27.132" endtime="20220706 15:23:27.217"/>
-</kw>
-<kw name="Press Keycode" library="AppiumLibrary">
-<arg>39</arg>
-<doc>Sends a press of keycode to the device.</doc>
-<status status="PASS" starttime="20220706 15:23:27.217" endtime="20220706 15:23:27.758"/>
-</kw>
-<kw name="Press Keycode" library="AppiumLibrary">
-<arg>43</arg>
-<doc>Sends a press of keycode to the device.</doc>
-<status status="PASS" starttime="20220706 15:23:27.759" endtime="20220706 15:23:28.304"/>
-</kw>
-<kw name="Press Keycode" library="AppiumLibrary">
-<arg>42</arg>
-<doc>Sends a press of keycode to the device.</doc>
-<status status="PASS" starttime="20220706 15:23:28.305" endtime="20220706 15:23:28.935"/>
-</kw>
-<kw name="Press Keycode" library="AppiumLibrary">
-<arg>8</arg>
-<doc>Sends a press of keycode to the device.</doc>
-<status status="PASS" starttime="20220706 15:23:28.935" endtime="20220706 15:23:29.716"/>
-</kw>
-<kw name="Press Keycode" library="AppiumLibrary">
-<arg>9</arg>
-<doc>Sends a press of keycode to the device.</doc>
-<status status="PASS" starttime="20220706 15:23:29.716" endtime="20220706 15:23:30.263"/>
-</kw>
-<kw name="Press Keycode" library="AppiumLibrary">
-<arg>10</arg>
-<doc>Sends a press of keycode to the device.</doc>
-<status status="PASS" starttime="20220706 15:23:30.264" endtime="20220706 15:23:30.790"/>
-</kw>
-<kw name="Press Keycode" library="AppiumLibrary">
-<arg>11</arg>
-<doc>Sends a press of keycode to the device.</doc>
-<status status="PASS" starttime="20220706 15:23:30.791" endtime="20220706 15:23:31.337"/>
-</kw>
-<kw name="Press Keycode" library="AppiumLibrary">
-<arg>12</arg>
-<doc>Sends a press of keycode to the device.</doc>
-<status status="PASS" starttime="20220706 15:23:31.338" endtime="20220706 15:23:31.867"/>
-</kw>
-<kw name="Sleep" library="BuiltIn">
-<arg>2</arg>
-<doc>Pauses the test executed for the given time.</doc>
-<msg timestamp="20220706 15:23:33.870" level="INFO">Slept 2 seconds</msg>
-<status status="PASS" starttime="20220706 15:23:31.868" endtime="20220706 15:23:33.870"/>
-</kw>
-<kw name="Click Element At Coordinates" library="AppiumLibrary">
-<arg>55</arg>
-<arg>237</arg>
-<doc>click element at a certain coordinate</doc>
-<msg timestamp="20220706 15:23:33.880" level="INFO">Pressing at (55, 237).</msg>
-<status status="PASS" starttime="20220706 15:23:33.871" endtime="20220706 15:23:34.045"/>
-</kw>
-<kw name="Tap" library="AppiumLibrary">
-<arg>${PRE_BTN_CHANGE_PASS_BTN_CONTINUE}</arg>
-<doc>Tap element identified by ``locator``. </doc>
-<status status="PASS" starttime="20220706 15:23:34.045" endtime="20220706 15:23:36.474"/>
-</kw>
-<kw name="Wait Until Page Contains Element" library="AppiumLibrary">
-<arg>${l_message_error}</arg>
-<doc>Waits until element specified with `locator` appears on current page.</doc>
-<status status="PASS" starttime="20220706 15:23:36.475" endtime="20220706 15:23:36.558"/>
-</kw>
-<kw name="Log To Console" library="BuiltIn">
-<arg>"*******************END_Diferent_Pass*********************"</arg>
-<doc>Logs the given message to the console.</doc>
-<status status="PASS" starttime="20220706 15:23:36.559" endtime="20220706 15:23:36.560"/>
-</kw>
-<status status="PASS" starttime="20220706 15:22:50.667" endtime="20220706 15:23:36.561"/>
-</kw>
-<kw name="TC_Preferences_Change_Pass_Success" library="K_Preferences">
-<kw name="Log To Console" library="BuiltIn">
-<arg>"*******************START_Change_Pass_Success*********************"</arg>
-<doc>Logs the given message to the console.</doc>
-<status status="PASS" starttime="20220706 15:23:36.562" endtime="20220706 15:23:36.562"/>
-</kw>
-<kw name="Sleep" library="BuiltIn">
-<arg>3</arg>
-<doc>Pauses the test executed for the given time.</doc>
-<msg timestamp="20220706 15:23:39.583" level="INFO">Slept 3 seconds</msg>
-<status status="PASS" starttime="20220706 15:23:36.562" endtime="20220706 15:23:39.584"/>
-</kw>
-<kw name="Click Element" library="AppiumLibrary">
-<arg>${PRE_BTN_CHANGE_PASS_CURRENT_OLD_PASS}</arg>
-<doc>Click element identified by `locator`.</doc>
-<msg timestamp="20220706 15:23:39.593" level="INFO">Clicking element '//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[2]/android.widget.EditText[1]'.</msg>
-<status status="PASS" starttime="20220706 15:23:39.584" endtime="20220706 15:23:39.808"/>
-</kw>
-<kw name="Sleep" library="BuiltIn">
-<arg>2</arg>
-<doc>Pauses the test executed for the given time.</doc>
-<msg timestamp="20220706 15:23:41.809" level="INFO">Slept 2 seconds</msg>
-<status status="PASS" starttime="20220706 15:23:39.809" endtime="20220706 15:23:41.810"/>
-</kw>
-<for flavor="IN RANGE">
-<var>${i}</var>
-<value>0</value>
-<value>9</value>
-<iter>
-<var name="${i}">0</var>
-<kw name="Press Keycode" library="AppiumLibrary">
-<arg>67</arg>
-<doc>Sends a press of keycode to the device.</doc>
-<status status="PASS" starttime="20220706 15:23:41.812" endtime="20220706 15:23:41.894"/>
-</kw>
-<status status="PASS" starttime="20220706 15:23:41.811" endtime="20220706 15:23:41.895"/>
-</iter>
-<iter>
-<var name="${i}">1</var>
-<kw name="Press Keycode" library="AppiumLibrary">
-<arg>67</arg>
-<doc>Sends a press of keycode to the device.</doc>
-<status status="PASS" starttime="20220706 15:23:41.895" endtime="20220706 15:23:42.408"/>
-</kw>
-<status status="PASS" starttime="20220706 15:23:41.895" endtime="20220706 15:23:42.408"/>
-</iter>
-<iter>
-<var name="${i}">2</var>
-<kw name="Press Keycode" library="AppiumLibrary">
-<arg>67</arg>
-<doc>Sends a press of keycode to the device.</doc>
-<status status="PASS" starttime="20220706 15:23:42.409" endtime="20220706 15:23:42.961"/>
-</kw>
-<status status="PASS" starttime="20220706 15:23:42.409" endtime="20220706 15:23:42.961"/>
-</iter>
-<iter>
-<var name="${i}">3</var>
-<kw name="Press Keycode" library="AppiumLibrary">
-<arg>67</arg>
-<doc>Sends a press of keycode to the device.</doc>
-<status status="PASS" starttime="20220706 15:23:42.961" endtime="20220706 15:23:43.467"/>
-</kw>
-<status status="PASS" starttime="20220706 15:23:42.961" endtime="20220706 15:23:43.467"/>
-</iter>
-<iter>
-<var name="${i}">4</var>
-<kw name="Press Keycode" library="AppiumLibrary">
-<arg>67</arg>
-<doc>Sends a press of keycode to the device.</doc>
-<status status="PASS" starttime="20220706 15:23:43.468" endtime="20220706 15:23:44.000"/>
-</kw>
-<status status="PASS" starttime="20220706 15:23:43.468" endtime="20220706 15:23:44.001"/>
-</iter>
-<iter>
-<var name="${i}">5</var>
-<kw name="Press Keycode" library="AppiumLibrary">
-<arg>67</arg>
-<doc>Sends a press of keycode to the device.</doc>
-<status status="PASS" starttime="20220706 15:23:44.001" endtime="20220706 15:23:44.562"/>
-</kw>
-<status status="PASS" starttime="20220706 15:23:44.001" endtime="20220706 15:23:44.562"/>
-</iter>
-<iter>
-<var name="${i}">6</var>
-<kw name="Press Keycode" library="AppiumLibrary">
-<arg>67</arg>
-<doc>Sends a press of keycode to the device.</doc>
-<status status="PASS" starttime="20220706 15:23:44.563" endtime="20220706 15:23:45.092"/>
-</kw>
-<status status="PASS" starttime="20220706 15:23:44.562" endtime="20220706 15:23:45.092"/>
-</iter>
-<iter>
-<var name="${i}">7</var>
-<kw name="Press Keycode" library="AppiumLibrary">
-<arg>67</arg>
-<doc>Sends a press of keycode to the device.</doc>
-<status status="PASS" starttime="20220706 15:23:45.093" endtime="20220706 15:23:45.645"/>
-</kw>
-<status status="PASS" starttime="20220706 15:23:45.092" endtime="20220706 15:23:45.645"/>
-</iter>
-<iter>
-<var name="${i}">8</var>
-<kw name="Press Keycode" library="AppiumLibrary">
-<arg>67</arg>
-<doc>Sends a press of keycode to the device.</doc>
-<status status="PASS" starttime="20220706 15:23:45.646" endtime="20220706 15:23:46.189"/>
-</kw>
-<status status="PASS" starttime="20220706 15:23:45.645" endtime="20220706 15:23:46.189"/>
-</iter>
-<status status="PASS" starttime="20220706 15:23:41.810" endtime="20220706 15:23:46.191"/>
-</for>
-<kw name="Press Keycode" library="AppiumLibrary">
-<arg>-1</arg>
-<arg>37</arg>
-<doc>Sends a press of keycode to the device.</doc>
-<status status="PASS" starttime="20220706 15:23:46.191" endtime="20220706 15:23:46.246"/>
-</kw>
-<kw name="Press Keycode" library="AppiumLibrary">
-<arg>37</arg>
-<doc>Sends a press of keycode to the device.</doc>
-<status status="PASS" starttime="20220706 15:23:46.247" endtime="20220706 15:23:46.336"/>
-</kw>
-<kw name="Press Keycode" library="AppiumLibrary">
-<arg>39</arg>
-<doc>Sends a press of keycode to the device.</doc>
-<status status="PASS" starttime="20220706 15:23:46.336" endtime="20220706 15:23:46.882"/>
-</kw>
-<kw name="Press Keycode" library="AppiumLibrary">
-<arg>43</arg>
-<doc>Sends a press of keycode to the device.</doc>
-<status status="PASS" starttime="20220706 15:23:46.882" endtime="20220706 15:23:47.435"/>
-</kw>
-<kw name="Press Keycode" library="AppiumLibrary">
-<arg>42</arg>
-<doc>Sends a press of keycode to the device.</doc>
-<status status="PASS" starttime="20220706 15:23:47.436" endtime="20220706 15:23:47.962"/>
-</kw>
-<kw name="Press Keycode" library="AppiumLibrary">
-<arg>8</arg>
-<doc>Sends a press of keycode to the device.</doc>
-<status status="PASS" starttime="20220706 15:23:47.963" endtime="20220706 15:23:48.512"/>
-</kw>
-<kw name="Press Keycode" library="AppiumLibrary">
-<arg>9</arg>
-<doc>Sends a press of keycode to the device.</doc>
-<status status="PASS" starttime="20220706 15:23:48.512" endtime="20220706 15:23:49.037"/>
-</kw>
-<kw name="Press Keycode" library="AppiumLibrary">
-<arg>10</arg>
-<doc>Sends a press of keycode to the device.</doc>
-<status status="PASS" starttime="20220706 15:23:49.038" endtime="20220706 15:23:49.786"/>
-</kw>
-<kw name="Press Keycode" library="AppiumLibrary">
-<arg>11</arg>
-<doc>Sends a press of keycode to the device.</doc>
-<status status="PASS" starttime="20220706 15:23:49.786" endtime="20220706 15:23:50.351"/>
-</kw>
-<kw name="Sleep" library="BuiltIn">
-<arg>3</arg>
-<doc>Pauses the test executed for the given time.</doc>
-<msg timestamp="20220706 15:23:53.354" level="INFO">Slept 3 seconds</msg>
-<status status="PASS" starttime="20220706 15:23:50.351" endtime="20220706 15:23:53.355"/>
-</kw>
-<kw name="Click Element At Coordinates" library="AppiumLibrary">
-<arg>55</arg>
-<arg>237</arg>
-<doc>click element at a certain coordinate</doc>
-<msg timestamp="20220706 15:23:53.364" level="INFO">Pressing at (55, 237).</msg>
-<status status="PASS" starttime="20220706 15:23:53.355" endtime="20220706 15:23:53.536"/>
-</kw>
-<kw name="Click Element" library="AppiumLibrary">
-<arg>${PRE_BTN_CHANGE_PASS_CURRENT_NEW_PASS}</arg>
-<doc>Click element identified by `locator`.</doc>
-<msg timestamp="20220706 15:23:53.541" level="INFO">Clicking element '//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[2]/android.widget.EditText[2]'.</msg>
-<status status="PASS" starttime="20220706 15:23:53.537" endtime="20220706 15:23:54.262"/>
-</kw>
-<kw name="Sleep" library="BuiltIn">
-<arg>2</arg>
-<doc>Pauses the test executed for the given time.</doc>
-<msg timestamp="20220706 15:23:56.265" level="INFO">Slept 2 seconds</msg>
-<status status="PASS" starttime="20220706 15:23:54.262" endtime="20220706 15:23:56.265"/>
-</kw>
-<for flavor="IN RANGE">
-<var>${i}</var>
-<value>0</value>
-<value>9</value>
-<iter>
-<var name="${i}">0</var>
-<kw name="Press Keycode" library="AppiumLibrary">
-<arg>67</arg>
-<doc>Sends a press of keycode to the device.</doc>
-<status status="PASS" starttime="20220706 15:23:56.267" endtime="20220706 15:23:56.377"/>
-</kw>
-<status status="PASS" starttime="20220706 15:23:56.266" endtime="20220706 15:23:56.377"/>
-</iter>
-<iter>
-<var name="${i}">1</var>
-<kw name="Press Keycode" library="AppiumLibrary">
-<arg>67</arg>
-<doc>Sends a press of keycode to the device.</doc>
-<status status="PASS" starttime="20220706 15:23:56.378" endtime="20220706 15:23:56.909"/>
-</kw>
-<status status="PASS" starttime="20220706 15:23:56.377" endtime="20220706 15:23:56.909"/>
-</iter>
-<iter>
-<var name="${i}">2</var>
-<kw name="Press Keycode" library="AppiumLibrary">
-<arg>67</arg>
-<doc>Sends a press of keycode to the device.</doc>
-<status status="PASS" starttime="20220706 15:23:56.910" endtime="20220706 15:23:57.422"/>
-</kw>
-<status status="PASS" starttime="20220706 15:23:56.910" endtime="20220706 15:23:57.422"/>
-</iter>
-<iter>
-<var name="${i}">3</var>
-<kw name="Press Keycode" library="AppiumLibrary">
-<arg>67</arg>
-<doc>Sends a press of keycode to the device.</doc>
-<status status="PASS" starttime="20220706 15:23:57.422" endtime="20220706 15:23:57.972"/>
-</kw>
-<status status="PASS" starttime="20220706 15:23:57.422" endtime="20220706 15:23:57.972"/>
-</iter>
-<iter>
-<var name="${i}">4</var>
-<kw name="Press Keycode" library="AppiumLibrary">
-<arg>67</arg>
-<doc>Sends a press of keycode to the device.</doc>
-<status status="PASS" starttime="20220706 15:23:57.973" endtime="20220706 15:23:58.524"/>
-</kw>
-<status status="PASS" starttime="20220706 15:23:57.972" endtime="20220706 15:23:58.524"/>
-</iter>
-<iter>
-<var name="${i}">5</var>
-<kw name="Press Keycode" library="AppiumLibrary">
-<arg>67</arg>
-<doc>Sends a press of keycode to the device.</doc>
-<status status="PASS" starttime="20220706 15:23:58.524" endtime="20220706 15:23:59.048"/>
-</kw>
-<status status="PASS" starttime="20220706 15:23:58.524" endtime="20220706 15:23:59.049"/>
-</iter>
-<iter>
-<var name="${i}">6</var>
-<kw name="Press Keycode" library="AppiumLibrary">
-<arg>67</arg>
-<doc>Sends a press of keycode to the device.</doc>
-<status status="PASS" starttime="20220706 15:23:59.049" endtime="20220706 15:23:59.850"/>
-</kw>
-<status status="PASS" starttime="20220706 15:23:59.049" endtime="20220706 15:23:59.850"/>
-</iter>
-<iter>
-<var name="${i}">7</var>
-<kw name="Press Keycode" library="AppiumLibrary">
-<arg>67</arg>
-<doc>Sends a press of keycode to the device.</doc>
-<status status="PASS" starttime="20220706 15:23:59.851" endtime="20220706 15:24:00.395"/>
-</kw>
-<status status="PASS" starttime="20220706 15:23:59.851" endtime="20220706 15:24:00.395"/>
-</iter>
-<iter>
-<var name="${i}">8</var>
-<kw name="Press Keycode" library="AppiumLibrary">
-<arg>67</arg>
-<doc>Sends a press of keycode to the device.</doc>
-<status status="PASS" starttime="20220706 15:24:00.396" endtime="20220706 15:24:00.911"/>
-</kw>
-<status status="PASS" starttime="20220706 15:24:00.396" endtime="20220706 15:24:00.911"/>
-</iter>
-<status status="PASS" starttime="20220706 15:23:56.266" endtime="20220706 15:24:00.911"/>
-</for>
-<kw name="Press Keycode" library="AppiumLibrary">
-<arg>8</arg>
-<doc>Sends a press of keycode to the device.</doc>
-<status status="PASS" starttime="20220706 15:24:00.911" endtime="20220706 15:24:00.989"/>
-</kw>
-<kw name="Press Keycode" library="AppiumLibrary">
-<arg>9</arg>
-<doc>Sends a press of keycode to the device.</doc>
-<status status="PASS" starttime="20220706 15:24:00.990" endtime="20220706 15:24:01.517"/>
-</kw>
-<kw name="Press Keycode" library="AppiumLibrary">
-<arg>10</arg>
-<doc>Sends a press of keycode to the device.</doc>
-<status status="PASS" starttime="20220706 15:24:01.517" endtime="20220706 15:24:02.066"/>
-</kw>
-<kw name="Press Keycode" library="AppiumLibrary">
-<arg>11</arg>
-<doc>Sends a press of keycode to the device.</doc>
-<status status="PASS" starttime="20220706 15:24:02.067" endtime="20220706 15:24:02.611"/>
-</kw>
-<kw name="Press Keycode" library="AppiumLibrary">
-<arg>-1</arg>
-<doc>Sends a press of keycode to the device.</doc>
-<status status="PASS" starttime="20220706 15:24:02.611" endtime="20220706 15:24:03.145"/>
-</kw>
-<kw name="Press Keycode" library="AppiumLibrary">
-<arg>37</arg>
-<doc>Sends a press of keycode to the device.</doc>
-<status status="PASS" starttime="20220706 15:24:03.146" endtime="20220706 15:24:03.212"/>
-</kw>
-<kw name="Press Keycode" library="AppiumLibrary">
-<arg>39</arg>
-<doc>Sends a press of keycode to the device.</doc>
-<status status="PASS" starttime="20220706 15:24:03.213" endtime="20220706 15:24:03.739"/>
-</kw>
-<kw name="Press Keycode" library="AppiumLibrary">
-<arg>43</arg>
-<doc>Sends a press of keycode to the device.</doc>
-<status status="PASS" starttime="20220706 15:24:03.740" endtime="20220706 15:24:04.291"/>
-</kw>
-<kw name="Press Keycode" library="AppiumLibrary">
-<arg>42</arg>
-<doc>Sends a press of keycode to the device.</doc>
-<status status="PASS" starttime="20220706 15:24:04.292" endtime="20220706 15:24:04.834"/>
-</kw>
-<kw name="Sleep" library="BuiltIn">
-<arg>1</arg>
-<doc>Pauses the test executed for the given time.</doc>
-<msg timestamp="20220706 15:24:05.837" level="INFO">Slept 1 second</msg>
-<status status="PASS" starttime="20220706 15:24:04.835" endtime="20220706 15:24:05.837"/>
-</kw>
-<kw name="Click Element At Coordinates" library="AppiumLibrary">
-<arg>55</arg>
-<arg>237</arg>
-<doc>click element at a certain coordinate</doc>
-<msg timestamp="20220706 15:24:05.842" level="INFO">Pressing at (55, 237).</msg>
-<status status="PASS" starttime="20220706 15:24:05.838" endtime="20220706 15:24:05.995"/>
-</kw>
-<kw name="Click Element" library="AppiumLibrary">
-<arg>${PRE_BTN_CHANGE_PASS_CURRENT_CONFIRM_PASS}</arg>
-<doc>Click element identified by `locator`.</doc>
-<msg timestamp="20220706 15:24:06.000" level="INFO">Clicking element '//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[2]/android.widget.EditText[3]'.</msg>
-<status status="PASS" starttime="20220706 15:24:05.996" endtime="20220706 15:24:06.727"/>
-</kw>
-<for flavor="IN RANGE">
-<var>${i}</var>
-<value>0</value>
-<value>9</value>
-<iter>
-<var name="${i}">0</var>
-<kw name="Press Keycode" library="AppiumLibrary">
-<arg>67</arg>
-<doc>Sends a press of keycode to the device.</doc>
-<status status="PASS" starttime="20220706 15:24:06.729" endtime="20220706 15:24:07.684"/>
-</kw>
-<status status="PASS" starttime="20220706 15:24:06.728" endtime="20220706 15:24:07.685"/>
-</iter>
-<iter>
-<var name="${i}">1</var>
-<kw name="Press Keycode" library="AppiumLibrary">
-<arg>67</arg>
-<doc>Sends a press of keycode to the device.</doc>
-<status status="PASS" starttime="20220706 15:24:07.685" endtime="20220706 15:24:08.213"/>
-</kw>
-<status status="PASS" starttime="20220706 15:24:07.685" endtime="20220706 15:24:08.213"/>
-</iter>
-<iter>
-<var name="${i}">2</var>
-<kw name="Press Keycode" library="AppiumLibrary">
-<arg>67</arg>
-<doc>Sends a press of keycode to the device.</doc>
-<status status="PASS" starttime="20220706 15:24:08.214" endtime="20220706 15:24:08.747"/>
-</kw>
-<status status="PASS" starttime="20220706 15:24:08.214" endtime="20220706 15:24:08.747"/>
-</iter>
-<iter>
-<var name="${i}">3</var>
-<kw name="Press Keycode" library="AppiumLibrary">
-<arg>67</arg>
-<doc>Sends a press of keycode to the device.</doc>
-<status status="PASS" starttime="20220706 15:24:08.748" endtime="20220706 15:24:09.278"/>
-</kw>
-<status status="PASS" starttime="20220706 15:24:08.747" endtime="20220706 15:24:09.278"/>
-</iter>
-<iter>
-<var name="${i}">4</var>
-<kw name="Press Keycode" library="AppiumLibrary">
-<arg>67</arg>
-<doc>Sends a press of keycode to the device.</doc>
-<status status="PASS" starttime="20220706 15:24:09.279" endtime="20220706 15:24:10.177"/>
-</kw>
-<status status="PASS" starttime="20220706 15:24:09.279" endtime="20220706 15:24:10.178"/>
-</iter>
-<iter>
-<var name="${i}">5</var>
-<kw name="Press Keycode" library="AppiumLibrary">
-<arg>67</arg>
-<doc>Sends a press of keycode to the device.</doc>
-<status status="PASS" starttime="20220706 15:24:10.178" endtime="20220706 15:24:10.703"/>
-</kw>
-<status status="PASS" starttime="20220706 15:24:10.178" endtime="20220706 15:24:10.703"/>
-</iter>
-<iter>
-<var name="${i}">6</var>
-<kw name="Press Keycode" library="AppiumLibrary">
-<arg>67</arg>
-<doc>Sends a press of keycode to the device.</doc>
-<status status="PASS" starttime="20220706 15:24:10.703" endtime="20220706 15:24:11.253"/>
-</kw>
-<status status="PASS" starttime="20220706 15:24:10.703" endtime="20220706 15:24:11.253"/>
-</iter>
-<iter>
-<var name="${i}">7</var>
-<kw name="Press Keycode" library="AppiumLibrary">
-<arg>67</arg>
-<doc>Sends a press of keycode to the device.</doc>
-<status status="PASS" starttime="20220706 15:24:11.254" endtime="20220706 15:24:11.796"/>
-</kw>
-<status status="PASS" starttime="20220706 15:24:11.254" endtime="20220706 15:24:11.796"/>
-</iter>
-<iter>
-<var name="${i}">8</var>
-<kw name="Press Keycode" library="AppiumLibrary">
-<arg>67</arg>
-<doc>Sends a press of keycode to the device.</doc>
-<status status="PASS" starttime="20220706 15:24:11.796" endtime="20220706 15:24:12.331"/>
-</kw>
-<status status="PASS" starttime="20220706 15:24:11.796" endtime="20220706 15:24:12.331"/>
-</iter>
-<status status="PASS" starttime="20220706 15:24:06.727" endtime="20220706 15:24:12.331"/>
-</for>
-<kw name="Sleep" library="BuiltIn">
-<arg>2</arg>
-<doc>Pauses the test executed for the given time.</doc>
-<msg timestamp="20220706 15:24:14.332" level="INFO">Slept 2 seconds</msg>
-<status status="PASS" starttime="20220706 15:24:12.331" endtime="20220706 15:24:14.333"/>
-</kw>
-<kw name="Press Keycode" library="AppiumLibrary">
-<arg>8</arg>
-<doc>Sends a press of keycode to the device.</doc>
-<status status="PASS" starttime="20220706 15:24:14.333" endtime="20220706 15:24:14.418"/>
-</kw>
-<kw name="Press Keycode" library="AppiumLibrary">
-<arg>9</arg>
-<doc>Sends a press of keycode to the device.</doc>
-<status status="PASS" starttime="20220706 15:24:14.419" endtime="20220706 15:24:14.985"/>
-</kw>
-<kw name="Press Keycode" library="AppiumLibrary">
-<arg>10</arg>
-<doc>Sends a press of keycode to the device.</doc>
-<status status="PASS" starttime="20220706 15:24:14.985" endtime="20220706 15:24:15.512"/>
-</kw>
-<kw name="Press Keycode" library="AppiumLibrary">
-<arg>11</arg>
-<doc>Sends a press of keycode to the device.</doc>
-<status status="PASS" starttime="20220706 15:24:15.512" endtime="20220706 15:24:16.056"/>
-</kw>
-<kw name="Press Keycode" library="AppiumLibrary">
-<arg>-1</arg>
-<doc>Sends a press of keycode to the device.</doc>
-<status status="PASS" starttime="20220706 15:24:16.057" endtime="20220706 15:24:16.912"/>
-</kw>
-<kw name="Press Keycode" library="AppiumLibrary">
-<arg>37</arg>
-<doc>Sends a press of keycode to the device.</doc>
-<status status="PASS" starttime="20220706 15:24:16.913" endtime="20220706 15:24:16.987"/>
-</kw>
-<kw name="Press Keycode" library="AppiumLibrary">
-<arg>39</arg>
-<doc>Sends a press of keycode to the device.</doc>
-<status status="PASS" starttime="20220706 15:24:16.987" endtime="20220706 15:24:17.537"/>
-</kw>
-<kw name="Press Keycode" library="AppiumLibrary">
-<arg>43</arg>
-<doc>Sends a press of keycode to the device.</doc>
-<status status="PASS" starttime="20220706 15:24:17.538" endtime="20220706 15:24:18.087"/>
-</kw>
-<kw name="Press Keycode" library="AppiumLibrary">
-<arg>42</arg>
-<doc>Sends a press of keycode to the device.</doc>
-<status status="PASS" starttime="20220706 15:24:18.087" endtime="20220706 15:24:18.899"/>
-</kw>
-<kw name="Sleep" library="BuiltIn">
-<arg>2</arg>
-<doc>Pauses the test executed for the given time.</doc>
-<msg timestamp="20220706 15:24:20.901" level="INFO">Slept 2 seconds</msg>
-<status status="PASS" starttime="20220706 15:24:18.900" endtime="20220706 15:24:20.901"/>
-</kw>
-<kw name="Click Element At Coordinates" library="AppiumLibrary">
-<arg>55</arg>
-<arg>237</arg>
-<doc>click element at a certain coordinate</doc>
-<msg timestamp="20220706 15:24:20.906" level="INFO">Pressing at (55, 237).</msg>
-<status status="PASS" starttime="20220706 15:24:20.901" endtime="20220706 15:24:21.107"/>
-</kw>
-<kw name="Tap" library="AppiumLibrary">
-<arg>${PRE_BTN_CHANGE_PASS_BTN_CONTINUE}</arg>
-<doc>Tap element identified by ``locator``. </doc>
-<status status="PASS" starttime="20220706 15:24:21.108" endtime="20220706 15:24:23.970"/>
-</kw>
-<kw name="Wait Until Page Contains Element" library="AppiumLibrary">
-<arg>${l_message_error}</arg>
-<doc>Waits until element specified with `locator` appears on current page.</doc>
-<status status="PASS" starttime="20220706 15:24:23.970" endtime="20220706 15:24:24.058"/>
-</kw>
-<kw name="Log To Console" library="BuiltIn">
-<arg>"*******************END_Change_Pass_Success*********************"</arg>
-<doc>Logs the given message to the console.</doc>
-<status status="PASS" starttime="20220706 15:24:24.058" endtime="20220706 15:24:24.059"/>
-</kw>
-<status status="PASS" starttime="20220706 15:23:36.561" endtime="20220706 15:24:24.059"/>
+<kw name="TC_Edit_Valet_mode" library="K_New_Valet_Mode">
+<status status="NOT RUN" starttime="20220711 16:59:49.770" endtime="20220711 16:59:49.770"/>
 </kw>
 <kw name="Close Application" library="AppiumLibrary">
 <doc>Closes the current application and also close webdriver session.</doc>
-<status status="PASS" starttime="20220706 15:24:24.059" endtime="20220706 15:24:24.743"/>
+<status status="NOT RUN" starttime="20220711 16:59:49.770" endtime="20220711 16:59:49.770"/>
 </kw>
-<status status="PASS" starttime="20220706 15:19:26.838" endtime="20220706 15:24:24.743"/>
+<status status="FAIL" starttime="20220711 16:59:08.216" endtime="20220711 16:59:49.771">ValueError: Element locator '//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]' did not match any elements.</status>
 </test>
-<status status="PASS" starttime="20220706 15:19:26.641" endtime="20220706 15:24:24.746"/>
+<status status="FAIL" starttime="20220711 16:59:08.137" endtime="20220711 16:59:49.772"/>
 </suite>
 <statistics>
 <total>
-<stat pass="1" fail="0" skip="0">All Tests</stat>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
 </total>
 <tag>
 </tag>
 <suite>
-<stat pass="1" fail="0" skip="0" id="s1" name="Preferences Module">Preferences Module</stat>
+<stat pass="0" fail="1" skip="0" id="s1" name="New Valet Module">New Valet Module</stat>
 </suite>
 </statistics>
 <errors>
-<msg timestamp="20220706 15:19:26.833" level="ERROR">Error in file '/Users/javiertorres/Connectsmoke/Resources/Keywords/K_Profile.robot' on line 4: Resource file '/K_Dashboard.robot' does not exist.</msg>
-<msg timestamp="20220706 15:19:26.837" level="ERROR">Error in file '/Users/javiertorres/Connectsmoke/Tests/Preferences_Module.robot' on line 6: Importing library 'ScreenCapLibrary' failed: ModuleNotFoundError: No module named 'ScreenCapLibrary'
+<msg timestamp="20220711 16:59:08.215" level="ERROR">Error in file '/Users/javiertorres/Connectsmoke/Tests/New_Valet_Module.robot' on line 6: Importing library 'ScreenCapLibrary' failed: ModuleNotFoundError: No module named 'ScreenCapLibrary'
 Traceback (most recent call last):
   None
 PYTHONPATH:
